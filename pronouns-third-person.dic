@@ -1,0 +1,13 @@
+#version 3
+#name pron
+#subs acc nom self poss s
+
+>> her/s+;-/self//s
+  | pron h"3`/S"i/h3`-s"Elf/h"3`/h"3`z
+  | class female
+>> him/--e/self/-s/-s
+  | pron Im/h"i/hIm-s"Elf/hIz/hIz
+  | class male
+>> it//self/s/s
+  | pron It/It/It-s"Elf/Its/Its
+  | class neutral

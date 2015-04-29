@@ -1,0 +1,240 @@
+#version 3
+#name place
+#subs singular plural
+
+#class add indoor
+  #class add building
+    >> asylum/s
+    >> bar/s
+      | pron b"Arr/b"Arrz
+    >> barn/s
+      | pron b"Arrn/b"Arrnz
+    >> bomb shelter/s
+      | pron b"Om S"El-t3`/b"Om S"El-t3`z
+    >> castle/s
+      | pron k"{-sVl/k"{-sVlz
+    >> church/es
+      | pron tS"3`tS/tS"3`-tSIz
+    >> coffeeshop/s
+    >> conservatory/-ies
+      | pron kVn-s"3`-vV-tO-ri/kVn-s"3`-vV-t%O-riz
+    >> cottage/s
+      | pron k"A-tIdZ/k"A-tI-dZIz
+    >> courthouse/s
+      | pron k"Orrt-h%aUs/k"Orrt-h%aU-sIz
+    >> distillery/-ies
+      | pron dI-st"I-l3`-i/dI-st"I-l3`-iz
+    >> factory/-ies
+      | pron f"{k-t3`-i/f"{k-t3`-iz
+    >> firehouse/s
+      | pron f"aI-3`-h%aUs/f"aI-3`-h%aU-sIz
+    >> fort/s
+      | pron f"Orrt/f"Orrts
+    >> funeral home/s
+      | pron fj"u-n3`-Vl h"oUm/fj"u-n3`-Vl h"oUmz
+    >> homeless shelter/s
+      | pron h"oUm-lVs S"El-t3`/h"oUm-lVs S"El-t3`z
+    >> hospital/s
+      | pron h"As-p%I-tVl/h"As-p%I-tVlz
+    >> hostel/s
+      | pron h"A-stVl/h"A-stVlz
+    >> hotel/---stels
+      | pron hoU-t"El/h"A-stVlz
+    >> jail/s
+      | pron dZ"eIl/dZ"eIlz
+    >> laboratory/-ies
+      | pron l"{-brV-t%O-ri/l"{-brV-t%O-riz
+    >> library/-ies
+      | pron l"aI-br%E-ri/l"aI-br%E-riz
+    >> mall/s
+      | pron m"Ol/m"Olz
+    >> mansion/s
+      | pron m"{n-SVn/m"{n-tSVnz
+    >> morgue/s
+      | pron m"Orrg/m"Orrgz
+    >> nightclub/s
+      | pron n"aIt-kl%Vb/n"aIt-kl%Vbz
+    >> nursery/-ies
+      | pron n"3`-s3`-i/n"3`-s3`-iz
+    >> outhouse/s
+      | pron "aUt-h%aUs/"aUt-h%aU-sIz
+    >> palace/s
+      | pron p"{-lVs/p"{-lV-sIz
+    >> post office/s
+      | pron p"oUst "O-fVs/p"oUst "O-fV-sIz
+    >> prison/s
+      | pron pr"I-zVn/pr"I-zVnz
+    >> pub/s
+      | pron p"Vb/p"Vbz
+    >> safehouse/s
+    >> school/s
+      | pron sk"ul/sk"ulz
+    >> shack/s
+      | pron S"{k/S"{ks
+    >> shanty/-ies
+      | pron S"{n-ti/S"{n-tiz
+    >> stable/s
+      | pron st"eI-bVl/st"eI-bVlz
+    >> stadium/s
+      | pron st"eI-di-Vm/st"eI-di-Vmz
+    >> store/s
+      | pron st"Orr/st"Orrz
+    >> studio/s
+      | pron st"u-di-%oU/st"u-di-%oUz
+    >> tent/s
+      | pron t"Ent/t"Ents
+    >> theater/s
+      | pron T"i-V-t3`/T"i-V-t3`z
+    >> tomb/s
+      | pron t"um/t"umz
+    >> tower/s
+      | pron t"aU-3`/t"aU-3`z
+    >> warehouse/s
+      | pron w"err-h%aUs/w"err-h%aU-sIz
+  #class remove building
+
+  #class add natural
+    >> cave/s
+      | pron k"eIv/k"eIvz
+    >> ditch/es
+      | pron d"ItS/d"I-tSIz
+    >> forest/s
+      | pron f"O-rIst/f"O-rVs
+    >> land/s
+      | pron l"{nd/l"{ndz
+    >> meadow/s
+      | pron m"E-d%oU/m"E-d%oUz
+    >> nest/s
+      | pron n"Est/n"Ests
+  #class remove natural
+
+  >> abyss/es
+  >> alley/s
+    | pron "{-li/"{-liz
+  >> ambulance/s
+    | pron "{m-bjV-lVns/"{m-bjV-lVn-sIz
+  >> apartment/s
+    | pron V-p"Arrt-mVnt/V-p"Arrt-mVnts
+  >> arcade/s
+    | pron Arr-k"eId/Arr-k"eIdz
+  >> attic/s
+    | pron "{-tIk/"{-tIks
+  >> bank/s
+    | pron b"{Nk/b"{Nks
+  >> basement/s
+    | pron b"eIs-mVnt/b"eIs-mVnts
+  >> bathroom/s
+    | pron b"{T-r%um/b"AT-r%umz
+  >> bedroom/s
+    | pron b"Ed-r%um/b"Ed-r%umz
+  >> boat/s
+    | pron b"oUt/b"oUts
+  >> bus/es
+    | pron b"Vs/b"V-sIz
+  >> cage/s
+    | pron k"eIdZ/k"eI-dZIz
+  >> car/s
+    | pron k"Arr/k"Az
+  >> carnival/s
+    | pron k"Arr-nV-vVl/k"Arr-nV-vVlz
+  >> classroom/s
+    | pron kl"{s-r%um/kl"{s-r%umz
+  >> closet/s
+    | pron kl"A-zVt/kl"A-zVts
+  >> company/-ies
+    | pron k"Vm-pV-ni/k"Vm-pV-niz
+  >> dispensary/-ies
+  >> dungeon/s
+    | pron d"Vn-dZVn/d"Vn-dZVnz
+  >> festival/s
+    | pron f"E-stI-vVl/f"E-stI-vVlz
+  >> firetruck/s
+  >> garage/s
+    | pron g3`-"AZ/g3`-"A-ZIz
+  >> garden/s
+    | pron g"Arr-dVn/g"Arr-dVnz
+  >> house/s
+    | pron h"aUs/h"aU-sIz
+  >> kitchen/s
+    | pron k"I-tSVn/k"I-tSVnz
+  >> office/s
+    | pron "O-fVs/"O-fV-sIz
+  >> opera/s
+    | pron "A-prV/"A-prVz
+  >> port-a-potty/-ies
+  >> ring/s
+    | pron r"IN/r"INz
+  >> sanctuary/-ies
+    | pron s"{Nk-tSu-%E-ri/s"{Nk-tSu-%E-riz
+  >> sauna/s
+    | pron s"O-nV/s"O-nVz
+  >> shop/s
+    | pron S"Ap/S"Aps
+  >> skyway/s
+  >> stand/s
+    | pron st"{nd/st"{ndz
+  >> station/s
+    | pron st"eI-SVn/st"eI-SVnz
+  >> town/s
+    | pron t"aUn/t"aUnz
+  >> trailer/s
+    | pron tr"eI-l3`/tr"eI-l3`z
+  >> van/s
+    | pron v"{n/v"{nz
+  >> wonderland/s
+#class remove indoor
+
+#class add outdoor
+  #class add natural
+    >> beach/es
+      | pron b"itS/b"i-tSIz
+    >> crater/s
+      | pron kr"eI-t3`/kr"eI-t3`z
+    >> grassy plain/s
+      | pron gr"{-si pl"eIn/gr"{-si pl"eInz
+    >> hill/s
+      | pron h"Il/h"Ilz
+    >> hilltop/s
+      | pron h"Il-t%Ap/h"Il-t%Aps
+    >> island/s
+      | pron "aI-lVnd/"aI-lVndz
+    >> lakeside/s
+    >> mountain/s
+      | pron m"aUn-tVn/m"aUn-tVnz
+    >> valley/s
+      | pron v"{-li/v"{-liz
+    >> volcano/es
+      | pron vAl-k"eI-noU/vAl-k"eI-noUz
+    >> wasteland/s
+  #class remove natural
+
+  >> amusement park/s
+    | pron V-mj"uz-mVnt p"Arrk/V-mj"uz-mVnt p"Arrks
+  >> battlefield/s
+    | pron b"{-tVl-f%ild/b"{-tVl-f%ildz
+  >> cemetery/-ies
+    | pron s"E-mI-t%E-ri/s"E-mV-t%E-riz
+  >> dance floor/s
+    | pron d"{ns fl"Orr/d"{ns fl"Orrz
+  >> farm/s
+    | pron f"Arrm/f"Arrmz
+  >> field/s
+    | pron f"ild/f"ildz
+  >> graveyard/s
+    | pron gr"eIv-j%Arrd/gr"eIv-j%Arrdz
+  >> highway/s
+    | pron h"aI-w%eI/h"aI-w%eIz
+  >> park/s
+    | pron p"Arrk/p"Arrks
+  >> playground/s
+    | pron pl"eI-gr%aUn/pl"eI-gr%aUnz
+  >> railroad/s
+    | pron r"eIl-r%oUd/r"eIl-r%oUdz
+  >> road/s
+    | pron r"oUd/r"oUdz
+  >> rooftop/s
+    | pron r"uf-t%Ap/r"uf-t%Aps
+  >> street/s
+    | pron str"it/str"its
+#class remove outdoor
+

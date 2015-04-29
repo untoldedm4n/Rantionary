@@ -1,0 +1,41 @@
+#version 3
+#name quality
+#subs property more less est
+
+#class add human
+  >> age/old--;r/youn-;r/old--;st
+    | pron "eIdZ/"oUl-d3`/j"VN-g3`/"oUl-dVst
+  >> ethnicity/more +;---/less +;---/most +;---
+    | pron ET-n"I-sI-ti/m"Orr "ET-nIk/l"Es "ET-nIk/m"oUs "ET-nIk
+  >> gender/sexi----/more +; neutral/s-;----xiest
+    | pron dZ"En-d3`/s"Ek-si-3`/m"Orr dZ"En-d3` n"u-trVl/s"Ek-si-Vst
+  >> honesty/m-;-----re thuthful/l---;--s truthful/mo----;- truthful
+    | pron "A-nV-sti/m"Orr/l"Es tr"uT-fVl/m"oUs tr"uT-fVl
+  >> race/-ier/less +;-ier/-iest
+#class remove human
+
+#class add physical
+  >> color/more +;ful/dulle----/most +;ful
+    | pron k"O-l3`/m"Orr k"V-l3`-fVl/d"V-l3`/m"oUs k"V-l3`-fVl
+  >> force/ha--;--der/s-;---fter/ha--;--dest
+    | pron f"Orrs/h"Arr-d3`/s"Of-t3`/h"Arr-dVst
+  >> girth/ier/less +;y/iest
+  >> height/tall-;----r/s+;-----orter/talles-----
+    | pron h"aIt/t"O-l3`/S"Orr-t3`/t"O-lIst
+  >> length/-----onger/s-----;orter/-----ongest
+    | pron l"ENT/l"ON-g3`/S"Orr-t3`/l"ON-gIst
+  >> luminosity/br---;------ghter/*darker/br---;------ghtest
+  >> power level/more powerfu----------/|--;-------aker/most powerfu----------
+    | pron p"aU-3` l"E-vVl/m"Orr p"aU-3`-fVl/w"i-k3`/m"oUs p"aU-3`-fVl
+  >> size/b-;--gger/---maller/b-;--ggest
+    | pron s"aIz/b"I-g3`/sm"O-l3`/b"I-gVst
+  >> speed/fa+;----ter/----lower/fa+;----test
+    | pron sp"id/f"{-st3`/sl"oU-3`/f"{-stVst
+  >> weight/|----;-eavier/l--;er/heavies-----
+    | pron w"eIt/h"E-vi-3`/l"aI-t3`/h"E-vi-Vst
+  >> wetness/----ter/dri-;-----r/----test
+    | pron w"Et-nVs/w"E-t3`/dr"aI-3`/w"E-tVst
+  >> width/--er/sk-;---nnier/--est
+    | pron w"IdT/w"aI-d3`/sk"I-ni-3`/w"aI-dVst
+#class remove physical
+

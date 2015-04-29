@@ -1,0 +1,66 @@
+#version 3
+#name abstract
+#subs singular plural
+
+#class add concept
+  >> belief/s
+    | pron bI-l"if/bI-l"ifs
+  >> concept/s
+    | pron k"An-sEpt/k"An-sEps
+  >> conception/s
+    | pron kVn-s"Ep-SVn/kVn-s"Ep-SVnz
+  >> conclusion/s
+    | pron kVn-kl"u-ZVn/kVn-kl"u-ZVnz
+  >> hypothesis/--es
+    | pron haI-p"A-TV-sVs/haI-p"A-TV-s%iz
+  >> idea/s
+    | pron aI-d"i-V/aI-d"i-Vz
+  >> impression/s
+    | pron Im-pr"E-SVn/Im-pr"E-SVnz
+  >> law/s
+    | pron l"A/l"Oz
+  >> lie/s
+    | pron l"aI/l"aIz
+  >> notion/s
+    | pron n"oU-SVn/n"oU-SVnz
+  >> opinion/s
+    | pron V-p"I-njVn/V-p"I-njVnz
+  >> philosophy/-ies
+    | pron fV-l"A-sV-fi/fV-l"A-sV-fiz
+  >> plan/s
+    | pron pl"{n/pl"{nz
+  >> proposal/s
+    | pron prV-p"oU-zVl/prV-p"oU-zVlz
+  >> scheme/s
+    | pron sk"im/sk"imz
+  >> theory/-ies
+    | pron T"i-3`-i/T"i-3`-iz
+  >> thought/s
+    | pron T"Ot/T"Ots
+  >> vision/s
+    | pron v"I-ZVn/v"I-ZVnz
+#class remove concept
+
+#class add social
+  >> agreement/s
+    | pron V-gr"i-mVnt/V-gr"i-mVnts
+  >> conflict/s
+    | pron kVn-fl"Ikt/k"An-flIks
+  >> consensus/es
+  >> disagreement/s
+    | pron dIs-V-gr"i-mVnt/d%Is-V-gr"i-mVnts
+  >> feud/s
+    | pron fj"ud/fj"udz
+  >> fight/s
+    | pron f"aIt/f"aIts
+  >> friendship/s
+    | pron fr"En-SIp/fr"En-SIps
+  >> relationship/s
+    | pron ri-l"eI-SVn-S%Ip/ri-l"eI-SVn-S%Ips
+  >> rivalry/-ies
+    | pron r"aI-vVl-ri/r"aI-vVl-riz
+  >> romance/s
+    | pron r"oU-m{ns/roU-m"{n-sIz
+  >> understanding/s
+    | pron %Vn-d3`-st"{n-dIN/Vn-d3`-st"{n-dINz
+#class remove social

@@ -1,0 +1,552 @@
+#version 3
+#name verb
+#subs simple ing ed s er pp nom
+
+#class add intransitive
+  #class add eat
+    >> chew/ing/ed/s/er/ed/ing
+      | pron tS"u/tS"u-IN/tS"ud/tS"uz/tS"u-3`/tS"ud/tS"u-IN
+      | class transitive
+    >> eat/ing/|-;e/s/er/en/ing
+      | pron "it/"i-tIN/"eIt/"its/"i-t3`/"i-tVn/"i-tIN
+      | class transitive
+    >> lick/ing/ed/s/er/ed/ing
+      | pron l"Ik/l"I-kIN/l"Ikt/l"Iks/l"I-k3`/l"Ikt/l"I-kIN
+    >> masticate/-ing/d/s/r/d/-ion
+      | class transitive
+    >> slurp/ing/ed/s/er/ed/ing
+    >> snort/ing/ed/s/er/ed/ing
+    >> snuffle/-ing/d/s/r/d/-ing
+  #class remove eat
+
+  #class add pose
+    >> crouch/ing/ed/es/er/ed/ing
+    >> lay/ing/-id/s/er/-id/ing
+      | pron l"eI/l"eI-IN/l"eId/l"eIz/l"eI-3`/l"eId/l"eI-IN
+    >> sit/ting/--at/s/ter/--at/ting
+      | pron s"It/s"I-tIN/s"{t/s"Its/s"I-t3`/s"{t/s"I-tIN
+    >> squat/ting/ted/s/ter/ted/ting
+    >> stand/ing/---ood/s/er/---ood/ing
+      | pron st"{nd/st"{n-dIN/st"Ud/st"{ndz/st"{n-d3`/st"Ud/st"{n-dIN
+  #class remove pose
+
+  >> fume/-ing/d/s/r/d/-ing
+  >> lather/ing/ed/s/er/ed/ing
+  >> pray/ing/ed/s/er/ed/er
+    | pron pr"eI/pr"eI-IN/pr"eId/pr"eIz/pr"eI-3`/pr"eId/pr"eI-3`
+#class remove intransitive
+
+#class add motion
+  #class add insert
+    >> cram/ming/med/s/mer/med/ming
+      | pron kr"{m/kr"{-mIN/kr"{md/kr"{mz/kr"{-m3`/kr"{md/kr"{-mIN
+    >> inject/ing/ed/s/or/ed/ion
+      | pron In-dZ"Ekt/In-dZ"Ek-tIN/In-dZ"Ek-tId/In-dZ"Ekts/In-dZ"Ek-t3`/In-dZ"Ek-tId/In-dZ"Ek-SVn
+    >> poke/-ing/d/s/r/d/-ing
+      | pron p"oUk/p"oU-kIN/p"oUkt/p"oUks/p"oU-k3`/p"oUkt/p"oU-kIN
+    >> prod/ding/ded/s/der/ded/ding
+    >> screw/ing/ed/s/er/ed/ing
+    >> stick/ing/---uck/s/er/---uck/ing
+      | pron st"Ik/st"I-kIN/st"Vk/st"Iks/st"I-k3`/st"Vk/st"I-kIN
+    >> wedge/-ing/d/s/r/d/-ing
+  #class remove insert
+
+  >> bang/ing/ed/s/er/ed/ing
+    | pron b"{N/b"{-NIN/b"{Nd/b"{Nz/b"{-N3`/b"{Nd/b"{-NIN
+  >> bind/ing/---ound/s/er/---ound/ing
+    | pron b"aInd/b"aIn-dIN/b"aUnd/b"aIndz/b"aIn-d3`/b"aUnd/b"aIn-dIN
+  >> blow/ing/--ew/s/er/n/ing
+    | pron bl"oU/bl"oU-IN/bl"u/bl"oUz/bl"oU-3`/bl"oUn/bl"oU-IN
+  >> crank/ing/ed/s/er/ed/ing
+  >> crunch/ing/ed/es/er/ed/ing
+    | pron kr"VntS/kr"Vn-tSIN/kr"VntSt/kr"Vn-tSIz/kr"Vn-tS3`/kr"VntSt/kr"Vn-tSIN
+  >> eject/ing/ed/s/or/ed/ion
+  >> fly/ing/-ew/-ies/-ier/-own/ing
+    | pron fl"aI/fl"aI-IN/fl"u/fl"aIz/fl"aI-3`/fl"oUn/fl"aI-IN
+  >> force/-ing/d/s/r/d/-ing
+  >> hack/ing/ed/s/er/ed/ing
+    | pron h"{k/h"{-kIN/h"{kt/h"{ks/h"{-k3`/h"{kt/h"{-kIN
+  >> hurl/ing/ed/s/er/ed/ing
+  >> kick/ing/ed/s/er/ed/ing
+    | pron k"Ik/k"I-kIN/k"Ikt/k"Iks/k"I-k3`/k"Ikt/k"I-kIN
+  >> knead/ing/ed/s/er/ed/ing
+  >> move/-ing/d/s/r/d/-ing
+    | pron m"uv/m"u-vIN/m"uvd/m"uvz/m"u-v3`/m"uvd/m"u-vIN
+  >> press/ing/ed/es/er/ed/ing
+    | pron pr"Es/pr"E-sIN/pr"Est/pr"E-sIz/pr"E-s3`/pr"Est/pr"E-sIN
+  >> pump/ing/ed/s/er/ed/ing
+  >> rip/ping/ped/s/per/ped/ping
+    | pron r"Ip/r"I-pIN/r"Ipt/r"Ips/r"I-p3`/r"Ipt/r"I-pIN
+  >> serve/-ing/d/s/r/d/-ing
+    | pron s"3`v/s"3`-vIN/s"3`vd/s"3`vz/s"3`-v3`/s"3`vd/s"3`-vIN
+  >> shake/-ing/---ook/s/r/n/-ing
+    | pron S"eIk/S"eI-kIN/S"Uk/S"eIks/S"eI-k3`/S"eI-kVn/S"eI-kIN
+  >> shoot/ing/--t/s/er/--t/ing
+    | pron S"ut/S"u-tIN/S"At/S"uts/S"u-t3`/S"At/S"u-tIN
+  >> slam/ming/med/s/mer/med/ming
+    | pron sl"{m/sl"{-mIN/sl"{md/sl"{mz/sl"{-m3`/sl"{md/sl"{-mIN
+  >> slip/ping/ped/s/per/ped/ping
+    | pron sl"Ip/sl"I-pIN/sl"Ipt/sl"Ips/sl"I-p3`/sl"Ipt/sl"I-pIN
+  >> smack/ing/ed/s/er/ed/ing
+  >> squish/ing/ed/es/er/ed/ing
+  >> staple/-ing/d/s/r/d/-ing
+    | pron st"eI-pVl/st"eI-plIN/st"eI-pVld/st"eI-pVlz/st"eIp-l3`/st"eI-pVld/st"eI-plIN
+  >> stomp/ing/ed/s/er/ed/ing
+  >> throw/ing/--ew/s/er/n/ing
+    | pron Tr"oU/Tr"oU-IN/Tr"u/Tr"oUz/Tr"oU-3`/Tr"oUn/Tr"oU-IN
+  >> tremble/-ing/d/s/r/d/-ing
+  >> twang/ing/ed/s/er/ed/ing
+  >> twist/ing/ed/s/er/ed/ing
+    | pron tw"Ist/tw"I-stIN/tw"I-stId/tw"Ists/tw"I-st3`/tw"I-stId/tw"I-stIN
+  >> waddle/-ing/d/-----oddles/-----oddler/d/-ing
+  >> wiggle/-ing/d/s/r/d/-ing
+#class remove motion
+
+#class add political
+  >> amend/ing/ed/s/er/ed/ment
+  >> elect/ing/ed/s/er/ed/ion
+  >> impeach/ing/ed/es/er/ed/ment
+  >> inaugurate/-ing/d/s/r/d/-ion
+  >> ratify/ing/-ied/-ies/-ier/-ied/-ication
+  >> veto/ing/ed/es/er/ed/ing
+#class remove political
+
+#class add transitive
+  #class add insert
+    >> feed/ing/--d/s/er/--d/ing
+      | pron f"id/f"i-dIN/f"Ed/f"idz/f"i-d3`/f"Ed/f"i-dIN
+    >> plunge/-ing/d/s/r/d/-ing
+      | pron pl"VndZ/pl"Vn-dZIN/pl"VndZd/pl"Vn-dZIz/pl"Vn-dZ3`/pl"VndZd/pl"Vn-dZIN
+    >> push/ing/ed/es/er/ed/ing
+      | pron p"US/p"U-SIN/p"USt/p"U-SIz/p"U-S3`/p"USt/p"U-SIN
+      | class move
+    >> ram/ming/med/s/mer/med/ming
+      | pron r"{m/r"{-mIN/r"{md/r"{mz/r"{-m3`/r"{md/r"{-mIN
+  #class remove insert
+
+  #class add intransitive
+    >> bake/-ing/d/s/r/d/-ing
+      | pron b"eIk/b"eI-kIN/b"eIkt/b"eIks/b"eI-k3`/b"eIkt/b"eI-kIN
+    >> bathe/-ing/d/s/r/d/-ing
+      | pron b"eID/b"eI-DIN/b"eIDd/b"eIDz/b"{-D3`/b"eIDd/b"eI-DIN
+    >> boil/ing/ed/s/er/ed/ing
+      | pron b"OIl/b"OI-lIN/b"OIld/b"OIlz/b"OI-l3`/b"OIld/b"OI-lIN
+    >> breastfeed/ing/--d/s/er/--d/ing
+    >> burn/ing/ed/s/er/t/ing
+      | pron b"3`n/b"3`-nIN/b"3`nd/b"3`nz/b"3`-n3`/b"3`nt/b"3`-nIN
+    >> cook/ing/ed/s/er/ed/ing
+      | pron k"Uk/k"U-kIN/k"Ukt/k"Uks/k"U-k3`/k"Ukt/k"U-kIN
+    >> cuddle/-ing/d/s/r/d/-ing
+    >> cut/ting//s/ter//ting
+      | pron k"Vt/k"V-tIN/k"Vt/k"Vts/k"V-t3`/k"Vt/k"V-tIN
+    >> dig/ging/--ug/s/ger/--ug/ging
+      | pron d"Ig/d"I-gIN/d"Vg/d"Igz/d"I-g3`/d"Vg/d"I-gIN
+    >> fiddle/-ing/d/s/r/d/-ing
+      | pron f"I-dVl/f"Id-lIN/f"I-dVld/f"I-dVlz/f"Id-l3`/f"I-dVld/f"Id-lIN
+    >> flatten/ing/ed/s/er/ed/ing
+    >> flick/ing/ed/s/er/ed/ing
+    >> freeze/-ing/----oze/s/r/----ozen/-ing
+      | pron fr"iz/fr"i-zIN/fr"oUz/fr"i-zIz/fr"i-z3`/fr"oU-zVn/fr"i-zIN
+    >> hiccup/ing/ed/s/er/ed/ing
+    >> jerk/ing/ed/s/er/ed/ing
+    >> kiss/ing/ed/es/er/ed/ing
+      | pron k"Is/k"I-sIN/k"Ist/k"I-sIz/k"I-s3`/k"Ist/k"I-sIN
+    >> moan/ing/ed/s/er/ed/ing
+    >> plaster/ing/ed/s/er/ed/ing
+      | pron pl"{-st3`/pl"{-st3`-IN/pl"{-st3`d/pl"{-st3`z/pl"{-st3`-3`/pl"{-st3`d/pl"{-st3`-IN
+    >> pull/ing/ed/s/er/ed/ing
+      | pron p"Ul/p"U-lIN/p"Uld/p"Ulz/p"U-l3`/p"Uld/p"U-lIN
+    >> rattle/-ing/d/s/r/d/-ing
+      | pron r"{-tVl/r"{-tVl-IN/r"{-tVld/r"{-tVlz/r"{t-l3`/r"{-tVld/r"{-tVl-IN
+    >> roll/ing/ed/s/er/ed/ing
+      | pron r"oUl/r"oU-lIN/r"oUld/r"oUlz/r"oU-l3`/r"oUld/r"oU-lIN
+    >> rot/ting/ted/s/ter/ten/ting
+      | pron r"At/r"A-tIN/r"A-tId/r"Ats/r"A-t3`/r"A-tVn/r"A-tIN
+    >> rustle/-ing/d/s/r/d/-ing
+    >> scorch/ing/ed/es/er/ed/ing
+    >> scrub/bing/bed/s/ber/bed/bing
+    >> sculpt/ing/ed/s/or/ed/ure
+      | pron sk"Vlpt/sk"Vlp-tIN/sk"Vlp-tId/sk"Vlpts/sk"Vlp-t3`/sk"Vlp-tId/sk"Vlp-tS3`
+    >> shave/-ing/d/s/r/d/-ing
+      | pron S"eIv/S"eI-vIN/S"eIvd/S"eIvz/S"eI-v3`/S"eIvd/S"eI-vIN
+    >> smoke/-ing/d/s/r/d/-ing
+      | pron sm"oUk/sm"oU-kIN/sm"oUkt/sm"oUks/sm"oU-k3`/sm"oUkt/sm"oU-kIN
+    >> sniff/ing/ed/s/er/ed/ing
+      | pron sn"If/sn"I-fIN/sn"Ift/sn"Ifs/sn"I-f3`/sn"Ift/sn"I-fIN
+      | class eat
+    >> snuggle/-ing/d/s/r/d/-ing
+    >> soak/ing/ed/s/er/ed/ing
+    >> strain/ing/ed/s/er/ed/ing
+    >> swallow/ing/ed/s/er/ed/ing
+    >> tinkle/-ing/d/s/r/d/-ing
+    >> vibrate/-ing/d/s/-or/d/-ion
+    >> waste/-ing/d/s/r/d/-ing
+      | pron w"eIst/w"eI-stIN/w"eI-stId/w"eIsts/w"eI-st3`/w"eI-stId/w"eI-stIN
+    >> yank/ing/ed/s/er/ed/ing
+  #class remove intransitive
+
+  #class add legal
+    >> convict/ing/ed/s/er/ed/ion
+    >> legalize/-ing/d/s/r/d/-ation
+    >> prosecute/-ing/d/s/r/d/-ion
+    >> sue/-ing/d/s/r/d/-ing
+  #class remove legal
+
+  #class add liquid
+    >> drain/ing/ed/s/er/ed/ing
+      | pron dr"eIn/dr"eI-nIN/dr"eInd/dr"eInz/dr"eI-n3`/dr"eInd/dr"eI-nIN
+      | class intransitive
+    >> drip/ping/ped/s/per/ped/ping
+      | class intransitive
+    >> jet-spray/ing/ed/s/er/ed/ing
+    >> paint/ing/ed/s/er/ed/ing
+      | pron p"eInt/p"eI-nIN/p"eI-nId/p"eInts/p"eI-n3`/p"eI-nId/p"eI-nIN
+      | class intransitive
+    >> piss/ing/ed/es/er/ed/ing
+      | class intransitive
+    >> pour/ing/ed/s/er/ed/ing
+    >> shower/ing/ed/s/er/ed/ing
+    >> smear/ing/ed/s/er/ed/ing
+    >> splash/ing/ed/es/er/ed/ing
+      | class intransitive
+    >> splatter/ing/ed/s/er/ed/ing
+    >> spray/ing/ed/s/er/ed/ing
+      | pron spr"eI/spr"eI-IN/spr"eId/spr"eIz/spr"eI-3`/spr"eId/spr"eI-IN
+    >> sprinkle/-ing/d/s/r/d/-ing
+      | pron spr"IN-kVl/spr"IN-kVl-IN/spr"IN-kVld/spr"IN-kVlz/spr"IN-kV-l3`/spr"IN-kVld/spr"IN-kVl-IN
+      | class intransitive
+    >> spurt/ing/ed/s/er/ed/ing
+      | class intransitive
+    >> sputter/ing/ed/s/er/ed/ing
+      | class intransitive
+    >> squirt/ing/ed/s/er/ed/ing
+      | class intransitive
+  #class remove liquid
+
+  >> articulate/-ing/d/s/-or/d/-ion
+  >> barbeque/-ing/d/s/r/d/-ing
+  >> blast/ing/ed/s/er/ed/ing
+    | pron bl"{st/bl"{-stIN/bl"{-stId/bl"{sts/bl"{-st3`/bl"{-stId/bl"{-stIN
+  >> caress/ing/ed/es/er/ed/ing
+  >> chop/ping/ped/s/per/ped/ping
+    | pron tS"Ap/tS"A-pIN/tS"Apt/tS"Aps/tS"A-p3`/tS"Apt/tS"A-pIN
+  >> clean/ing/ed/s/er/ed/ing
+    | pron kl"in/kl"i-nIN/kl"ind/kl"inz/kl"i-n3`/kl"ind/kl"i-nIN
+  >> click/ing/ed/s/er/ed/ing
+    | pron kl"Ik/kl"I-kIN/kl"Ikt/kl"Iks/kl"I-k3`/kl"Ikt/kl"I-kIN
+  >> clip/ping/ped/s/per/ped/ping
+    | pron kl"Ip/kl"I-pIN/kl"Ipt/kl"Ips/kl"I-p3`/kl"Ipt/kl"I-pIN
+  >> crumple/-ing/d/s/r/d/-ing
+  >> crush/ing/ed/es/er/ed/ing
+    | pron kr"VS/kr"V-SIN/kr"VSt/kr"V-SIz/kr"V-S3`/kr"VSt/kr"V-SIN
+  >> cultivate/-ing/d/s/r/d/-ion
+  >> deep-fry/ing/-ied/-ies/-ier/-ied/ing
+  >> dice/-ing/d/s/r/d/-ing
+  >> discipline/-ing/d/s/r/d/
+  >> dishonor/ing/ed/s/er/ed/ing
+  >> draft/ing/ed/s/er/ed/ing
+    | pron dr"{ft/dr"{f-tIN/dr"{f-tId/dr"{fts/dr"{f-t3`/dr"{f-tId/dr"{f-tIN
+  >> dry-freeze/-ing/----oze/s/r/----ozen/-ing
+  >> eliminate/-ing/d/s/r/d/-ion
+  >> embrace/-ing/d/s/r/d/
+  >> examine/-ing/d/s/r/d/-ation
+    | pron Ig-z"{-mIn/Ig-z"{-mI-nIN/Ig-z"{-mVnd/Ig-z"{-mVnz/Ig-z"{-mV-n3`/Ig-z"{-mVnd/Ig-z%{-mV-n"eI-SVn
+  >> exploit/ing/ed/s/er/ed/ation
+  >> extend/ing/ed/s/er/ed/ing
+    | pron Ik-st"End/Ik-st"En-dIN/Ik-st"En-dId/Ik-st"Endz/"Ek-st%En-d3`/Ik-st"En-dId/Ik-st"En-dIN
+  >> extrapolate/-ing/d/s/-or/d/-ion
+  >> extrude/-ing/d/s/r/d/-ing
+  >> fight/ing/----ought/s/er/ed/ing
+  >> flap/ping/ped/s/per/ped/ping
+    | pron fl"{p/fl"{-pIN/fl"{pt/fl"{ps/fl"{-p3`/fl"{pt/fl"{-pIN
+  >> gargle/-ing/d/s/r/d/-ing
+  >> glue/-ing/d/s/r/d/-ing
+  >> grate/-ing/d/s/r/d/-ing
+    | pron gr"eIt/gr"eI-tIN/gr"eI-tId/gr"eIts/gr"eI-t3`/gr"eI-tId/gr"eI-tIN
+  >> grind/ing/ed/s/er/---ound/ing
+  >> grip/ping/ped/s/per/ped/ping
+  >> groom/ing/ed/s/er/ed/ing
+    | pron gr"um/gr"u-mIN/gr"umd/gr"umz/gr"u-m3`/gr"umd/gr"u-mIN
+  >> handle/-ing/d/s/r/d/-ing
+    | pron h"{n-dVl/h"{n-dVl-IN/h"{n-dVld/h"{n-dVlz/h"{n-dV-l3`/h"{n-dVld/h"{n-dVl-IN
+  >> hug/ging/ged/s/ger/ged/ging
+    | pron h"Vg/h"V-gIN/h"Vgd/h"Vgz/h"V-g3`/h"Vgd/h"V-gIN
+  >> hunt/ing/ed/s/er/ed/ing
+    | pron h"Vnt/h"Vn-tIN/h"V-nId/h"Vnts/h"Vn-t3`/h"V-nId/h"Vn-tIN
+  >> hypnotize/-ing/d/s/--st/d/----sis
+  >> infest/ing/ed/s/er/ed/ation
+  >> invigorate/-ing/d/s/-or/d/-ion
+  >> iron/ing/ed/s/er/ed/ing
+  >> kill/ing/ed/s/er/ed/ing
+    | pron k"Il/k"I-lIN/k"Ild/k"Ilz/k"I-l3`/k"Ild/k"I-lIN
+  >> loosen/ing/ed/s/er/ed/ing
+  >> manipulate/-ing/d/s/-or/d/-ion
+    | pron mV-n"I-pjV-l%eIt/mV-n"I-pjV-l%eI-tIN/mV-n"I-pjV-l%eI-tId/mV-n"I-pjV-l%eIts/mV-n"I-pjV-l%eI-t3`/mV-n"I-pjV-l%eI-tId/mV-n%I-pjV-l"eI-SVn
+  >> marinate/-ing/d/s/r/d/-ion
+  >> massage/-ing/d/s/r/d/
+    | pron mV-s"AZ/mV-s"A-ZIN/mV-s"AZd/mV-s"A-ZIz/mV-s"A-Z3`/mV-s"AZd/mV-s"AZ
+  >> mist/ing/ed/s/er/ed/ing
+  >> misuse/-ing/d/s/r/d/
+  >> moisten/ing/ed/s/er/ed/--urization
+  >> oil/ing/ed/s/er/ed/ing
+    | pron "OIl/"OI-lIN/"OIld/"OIlz/"OI-l3`/"OIld/"OI-lIN
+  >> organize/-ing/d/s/r/d/-ation
+    | pron "Orr-gV-n%aIz/"Orr-gV-n%aI-zIN/"Orr-gV-n%aIzd/"Orr-gV-n%aI-zIz/"Orr-gV-n%aI-z3`/"Orr-gV-n%aIzd/%Orr-gV-nV-z"eI-SVn
+  >> penetrate/-ing/d/s/-or/d/-ion
+  >> pickle/-ing/d/s/r/d/-ing
+    | pron p"I-kVl/p"I-klIN/p"I-kVld/p"I-kVlz/p"Ik-l3`/p"I-kVld/p"I-klIN
+  >> pillage/-ing/d/s/r/d/-ing
+    | pron p"I-lIdZ/p"I-lI-dZIN/p"I-lIdZd/p"I-lI-dZIz/p"I-lI-dZ3`/p"I-lIdZd/p"I-lI-dZIN
+  >> polish/ing/ed/es/er/ed/ing
+  >> pop/ping/ped/s/per/ped/ping
+    | pron p"Ap/p"A-pIN/p"Apt/p"Aps/p"A-p3`/p"Apt/p"A-pIN
+  >> probe/-ing/d/s/--per/d/-ing
+    | pron pr"oUb/pr"oU-bIN/pr"oUbd/pr"oUbz/pr"A-p3`/pr"oUbd/pr"oU-bIN
+  >> puff/ing/ed/s/er/ed/ing
+    | pron p"Vf/p"V-fIN/p"Vft/p"Vfs/p"V-f3`/p"Vft/p"V-fIN
+  >> punish/ing/ed/es/er/ed/ment
+  >> quantify/ing/-ied/-ies/-ier/-ied/-ication
+  >> recycle/-ing/d/s/r/d/-ing
+    | pron ri-s"aI-kVl/ri-s"aI-klIN/ri-s"aI-kVld/ri-s"aI-kVlz/ri-s"aI-kl3`/ri-s"aI-kVld/ri-s"aI-klIN
+  >> rub/bing/bed/s/ber/bed/bing
+    | pron r"Vb/r"V-bIN/r"Vbd/r"Vbz/r"V-b3`/r"Vbd/r"V-bIN
+  >> salt/ing/ed/s/er/ed/ing
+    | pron s"Olt/s"Ol-tIN/s"Ol-tId/s"Olts/s"Ol-t3`/s"Ol-tId/s"Ol-tIN
+  >> sanitize/-ing/d/s/r/d/-ation
+  >> scold/ing/ed/s/er/ed/ing
+  >> scrunch/ing/ed/es/er/ed/ing
+  >> season/ing/ed/s/er/ed/ing
+  >> slit/ting//s/ter//ting
+  >> squeeze/-ing/d/s/r/d/-ing
+  >> squelch/ing/ed/es/er/ed/ing
+  >> stew/ing/ed/s/er/ed/ing
+  >> stimulate/-ing/d/s/-or/d/-ion
+    | pron st"I-mjV-l%eIt/st"I-mjV-l%eI-tIN/st"I-mjV-l%eI-tId/st"I-mjV-l%eIts/st"I-mjV-l%eI-t3`/st"I-mjV-l%eI-tId/st%I-mjV-l"eI-SVn
+  >> stir/ring/red/s/rer/red/ring
+  >> strap/ping/ped/s/per/ped/ping
+  >> strategize/-ing/d/s/r/d/-ing
+  >> streamline/-ing/d/s/r/d/-ing
+  >> strike/-ing/---uck/s/r/--cken/-ing
+    | pron str"aIk/str"aI-kIN/str"Vk/str"aIks/str"aI-k3`/str"I-kVn/str"aI-kIN
+  >> stuff/ing/ed/s/er/ed/ing
+    | pron st"Vf/st"V-fIN/st"Vft/st"Vfs/st"V-f3`/st"Vft/st"V-fIN
+  >> suckle/-ing/d/s/r/d/-ing
+  >> superglue/-ing/d/s/r/d/-ing
+  >> swipe/-ing/d/s/r/d/-ing
+  >> tap/ping/ped/s/per/ped/ping
+    | pron t"{p/t"{-pIN/t"{pt/t"{ps/t"{-p3`/t"{pt/t"{-pIN
+  >> tape/-ing/d/s/r/d/-ing
+    | pron t"eIp/t"eI-pIN/t"eIpt/t"eIps/t"eI-p3`/t"eIpt/t"eI-pIN
+  >> tighten/ing/ed/s/er/ed/ing
+  >> toke/-ing/d/s/r/d/-ing
+  >> touch/ing/ed/es/er/ed/ing
+  >> transcribe/-ing/d/s/r/d/-ing
+    | pron tr{n-skr"aIb/tr{n-skr"aI-bIN/tr{n-skr"aIbd/tr{n-skr"aIbz/tr{n-skr"aI-b3`/tr{n-skr"aIbd/tr{n-skr"aI-bIN
+  >> tune/-ing/d/s/r/d/-ings
+  >> uproot/ing/ed/s/er/ed/ing
+  >> withdraw/ing/--ew/s/er/n/ing
+  >> wrinkle/-ing/d/s/r/d/-ing
+  >> zip/ping/ped/s/per/ped/ping
+    | pron z"Ip/z"I-pIN/z"Ipt/z"Ips/z"I-p3`/z"Ipt/z"I-pIN
+#class remove transitive
+
+#class add violent
+  >> amputate/-ing/d/s/-or/d/-ion
+  >> assault/ing/ed/s/er/ed/
+  >> attack/ing/ed/s/er/ed/
+    | pron V-t"{k/V-t"{-kIN/V-t"{kt/V-t"{ks/V-t"{-k3`/V-t"{kt/V-t"{k
+  >> behead/ing/ed/s/er/ed/ing
+  >> bite/-ing/-/s/r/-ten/-ing
+    | pron b"aIt/b"aI-tIN/b"It/b"aIts/b"aI-t3`/b"I-tVn/b"aI-tIN
+  >> bludgeon/ing/ed/s/er/ed/ing
+  >> cremate/-ing/d/s/r/d/-ion
+  >> cripple/-ing/d/s/r/d/-ing
+    | class transitive
+  >> dangle/-ing/d/s/r/d/-ing
+    | pron d"{N-gVl/d"{N-glIN/d"{N-gVld/d"{N-gVlz/d"{N-gl3`/d"{N-gVld/d"{N-glIN
+  >> decapitate/-ing/d/s/r/d/-ion
+  >> dissect/ing/ed/s/or/ed/ion
+  >> dominate/-ing/d/s/-or/d/-ion
+  >> electrocute/-ing/d/s/r/d/-ion
+  >> explode/-ing/d/s/r/d/--sion
+  >> fart/ing/ed/s/er/ed/ing
+  >> gouge/-ing/d/s/r/d/-ing
+  >> grab/bing/bed/s/ber/bed/bing
+    | pron gr"{b/gr"{-bIN/gr"{bd/gr"{bz/gr"{-b3`/gr"{bd/gr"{-bIN
+  >> hammer/ing/ed/s/er/ed/ing
+  >> hang/ing/---ung/s/er/ed/ing
+    | pron h"{N/h"{-NgIN/h"VN/h"{Nz/h"{-N3`/h"{Nd/h"{-NgIN
+  >> harass/ing/ed/es/er/ed/ment
+    | class transitive
+  >> headbutt/ing/ed/s/er/ed/ing
+  >> impale/-ing/d/s/r/d/ment
+  >> implode/-ing/d/s/r/d/--sion
+  >> injure/-ing/d/s/r/d/-y
+  >> kidnap/ping/ped/s/per/ped/ping
+    | pron k"Id-n%{p/k"Id-n%{-pIN/k"Id-n%{pt/k"Id-n%{ps/k"Id-n%{-p3`/k"Id-n%{pt/k"Id-n%{-pIN
+  >> liquefy/ing/-ied/-ies/-ier/-ied/-ication
+    | class transitive
+  >> maim/ing/ed/s/er/ed/ing
+  >> mangle/-ing/d/s/r/d/-ing
+  >> manhandle/-ing/d/s/r/d/-ing
+  >> maul/ing/ed/s/er/ed/ing
+  >> mutilate/-ing/d/s/r/d/-ion
+  >> nab/bing/bed/s/ber/bed/bing
+    | class transitive
+  >> nail/ing/ed/s/er/ed/ing
+    | class insert transitive
+  >> nip/ping/ped/s/per/ped/ping
+    | class eat
+  >> pierce/-ing/d/s/r/d/-ing
+  >> pinch/ing/ed/es/er/ed/ing
+  >> pluck/ing/ed/s/er/ed/ing
+    | pron pl"Vk/pl"V-kIN/pl"Vkt/pl"Vks/pl"V-k3`/pl"Vkt/pl"V-kIN
+  >> punch/ing/ed/es/er/ed/ing
+  >> rob/bing/bed/s/ber/bed/bery
+    | pron r"Ab/r"A-bIN/r"Abd/r"Abz/r"A-b3`/r"Abd/r"A-b3`-i
+    | class transitive
+  >> scratch/ing/ed/es/er/ed/ing
+  >> shatter/ing/ed/s/er/ed/ing
+  >> shove/-ing/d/s/r/d/-ing
+    | pron S"Vv/S"V-vIN/S"Vvd/S"Vvz/S"V-v3`/S"Vvd/S"V-vIN
+  >> shred/ding/ded/s/der/ded/ding
+    | pron Sr"Ed/Sr"E-dIN/Sr"E-dId/Sr"Edz/Sr"E-d3`/Sr"E-dId/Sr"E-dIN
+    | class transitive
+  >> skewer/ing/ed/s/er/ed/ing
+  >> slap/ping/ped/s/per/ped/ping
+  >> slash/ing/ed/es/er/ed/ing
+    | pron sl"{S/sl"{-SIN/sl"{St/sl"{-SIz/sl"{-S3`/sl"{St/sl"{-SIN
+  >> snip/ping/ped/s/per/ped/ping
+  >> spank/ing/ed/s/er/ed/ing
+  >> stab/bing/bed/s/ber/bed/bing
+  >> strangle/-ing/d/s/r/d/--ulation
+  >> throttle/-ing/d/s/r/d/-ing
+  >> tickle/-ing/d/s/r/d/-ing
+  >> vaporize/-ing/d/s/r/d/-ation
+    | class transitive
+  >> vomit/ing/ed/s/er/ed/ing
+  >> whip/ping/ped/s/per/ped/ping
+#class remove violent
+
+#class add walk
+  >> crawl/ing/ed/s/er/ed/ing
+  >> gallop/ing/ed/s/er/ed/ing
+  >> joust/ing/ed/s/er/ed/ing
+  >> march/ing/ed/es/er/ed/ing
+    | pron m"ArrtS/m"Arr-tSIN/m"ArrtSt/m"Arr-tSIz/m"Arr-tS3`/m"ArrtSt/m"Arr-tSIN
+  >> run/ning/--an/s/ner//ning
+    | pron r"Vn/r"V-nIN/r"{n/r"Vnz/r"V-n3`/r"Vn/r"V-nIN
+  >> skip/ping/ped/s/per/ped/ping
+    | pron sk"Ip/sk"I-pIN/sk"Ipt/sk"Ips/sk"I-p3`/sk"Ipt/sk"I-pIN
+  >> sleepwalk/ing/ed/s/er/ed/ing
+  >> slouch/ing/ed/es/er/ed/ing
+  >> snoop/ing/ed/s/er/ed/ing
+    | class transitive
+  >> sprint/ing/ed/s/er/ed/ing
+    | pron spr"Int/spr"In-tIN/spr"In-tId/spr"Ints/spr"In-t3`/spr"In-tId/spr"In-tIN
+  >> stampede/-ing/d/s/r/d/-ing
+  >> strut/ting/ted/s/ter/ted/ting
+  >> tiptoe/ing/d/s/r/d/ing
+  >> trot/ting/ted/s/ter/ted/ting
+    | pron tr"At/tr"A-tIN/tr"A-tId/tr"Ats/tr"A-t3`/tr"A-tId/tr"A-tIN
+  >> walk/ing/ed/s/er/ed/ing
+    | pron w"Ak/w"O-kIN/w"Okt/w"Oks/w"O-k3`/w"Okt/w"O-kIN
+#class remove walk
+
+>> abduct/ing/ed/s/or/ed/ion
+  | pron {b-d"Vkt/Vb-d"Vk-tIN/Vb-d"Vk-tId/{b-d"Vkts/Vb-d"Vk-t3`/Vb-d"Vk-tId/Vb-d"Vk-SVn
+>> abolish/ing/ed/es/er/ed/ment
+>> apprehend/ing/ed/s/er/ed/-sion
+>> authenticate/-ing/d/s/-or/d/-ion
+>> bless/ing/ed/es/er/ed/ing
+>> chill/ing/ed/s/er/ed/ing
+  | pron tS"Il/tS"I-lIN/tS"Ild/tS"Ilz/tS"I-l3`/tS"Ild/tS"I-lIN
+>> choke/-ing/d/s/r/d/-ing
+>> commandeer/ing/ed/s/er/ed/ing
+>> conserve/-ing/d/s/r/d/-ation
+>> crash/ing/ed/es/er/ed/ing
+>> customize/-ing/d/s/r/d/-ation
+>> decorate/-ing/d/s/-or/d/-ion
+>> despise/-ing/d/s/r/d/
+  | class dislike
+>> dislike/-ing/d/s/r/d/
+  | class dislike
+>> donate/-ing/d/s/r/d/-ion
+>> dramatize/-ing/d/s/r/d/-ation
+>> forecast/ing/ed/s/er/ed/ing
+  | pron f"Orr-k%{st/f"Orr-k%{-stIN/f"Orr-k%{-stId/f"Orr-k%{s/f"Orr-k%{-st3`/f"Orr-k%{-stId/f"Orr-k%{-stIN
+>> hoist/---stng/ed/s/er/ed/ing
+>> jimmy/ing/-ied/-ies/-ier/-ied/ing
+>> jingle/-ing/d/s/r/d/-ing
+>> lecture/-ing/d/s/r/d/-ing
+  | pron l"Ek-tS3`/l"Ek-tS3`-IN/l"Ek-tS3`d/l"Ek-tS3`z/l"Ek-tS3`-3`/l"Ek-tS3`d/l"Ek-tS3`-IN
+>> like/-ing/d/s/r/d/
+  | class like
+>> liquidate/-ing/d/s/-or/d/-ion
+  | pron l"I-kwI-d%eIt/l"I-kwI-d%eI-tIN/l"I-kwI-d%eI-tId/l"I-kwI-d%eIts/l"I-kwI-d%eI-t3`/l"I-kwI-d%eI-tId/l%I-kwI-d"eI-SVn
+>> loathe/-ing/d/s/r/d/
+  | class dislike
+>> need/ing/ed/s/er/ed/
+  | class like
+>> petition/ing/ed/s/er/ed/ing
+  | pron pV-t"I-SVn/pV-t"I-SVn-IN/pV-t"I-SVnd/pV-t"I-SVnz/pV-t"I-SVn-3`/pV-t"I-SVnd/pV-t"I-SVn-IN
+>> preen/ing/ed/s/er/ed/ing
+>> purify/ing/-ied/-ies/-ier/-ied/-ication
+>> rapture/-ing/d/s/r/d/
+>> report/ing/ed/s/er/ed/ing
+  | pron rI-p"Orrt/rI-p"Orr-tIN/rI-p"Orr-tVd/ri-p"Orrts/rI-p"Orr-t3`/rI-p"Orr-tVd/rI-p"Orr-tIN
+>> ride/-ing/---ode/s/r/-den/-ing
+  | pron r"aId/r"aI-dIN/r"oUd/r"aIdz/r"aI-d3`/r"I-dVn/r"aI-dIN
+>> sharpen/ing/ed/s/er/ed/ing
+>> spelunk/ing/ed/s/er/ed/ing
+>> toast/ing/ed/s/er/ed/ing
+  | pron t"oUst/t"oU-stIN/t"oU-stId/t"oUs/t"oU-st3`/t"oU-stId/t"oU-stIN
+>> want/ing/ed/s/er/ed/
+  | class like
+>> whisper/ing/ed/s/er/ed/ing
+
+#nsfw
+
+#class add intransitive
+  >> defecate/-ing/d/s/-or/d/-ion
+    | class liquid transitive
+  >> ejaculate/-ing/d/s/-or/d/-ion
+    | class liquid sex
+  >> gyrate/-ing/d/s/-or/d/-ion
+    | class motion move
+  >> masturbate/-ing/d/s/-or/d/-ion
+    | class sex
+  >> twerk/ing/ed/s/er/ed/ing
+    | class motion
+  >> urinate/-ing/d/s/-or/d/-ion
+    | class liquid
+#class remove intransitive
+
+>> square dance/-ing/d/s/r/d/-ing
+	| class motion intransitive
+>> palpitate/-ing/d/s/r/d/-ion
+	| class motion
+>> belly-flop/ping/ped/s/per/ped/ping
+	| class motion intransitive
+
+#class add transitive
+  #class add sex
+    >> cockblast/ing/-----flasted/s/er/ed/ing
+      | class liquid
+    >> fellate/-ing/d/s/r/d/-io
+    >> fuck/ing/ed/s/er/ed/ing
+      | class intransitive
+    >> mount/ing/ed/s/er/ed/ing
+    >> please/-ing/d/s/r/-ted/-ing
+    >> thrust/ing//s/er/ed/ing
+      | class insert intransitive motion
+    >> titfuck/ing/ed/----ucks/er/ed/ing
+    >> turbohump/ing/ed/s/er/ed/ification
+  #class remove sex
+
+  >> erect/ing/ed/s/or/ed/ion
+  >> fertilize/-ing/d/s/r/d/-ation
+  >> finger/ing/ed/s/er/ed/ing
+  >> grope/-ing/d/s/r/d/-ing
+    | class violent
+#class remove transitive

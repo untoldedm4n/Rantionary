@@ -1,0 +1,82 @@
+#version 3
+#name unit
+#subs singular plural abbr
+
+#class add factor
+  #class add energy
+    #class add large
+      >> kilojoule/s/--------J
+      >> kilovolt/s/-------V
+        | class potential
+      >> kilowatt/s/-------W
+        | class power
+      >> megawatt/s/*MW
+        | class power
+    #class remove large
+
+    #class add small
+      >> microfarad/s/*μF
+        | class capacitance
+      >> milliampere/s/----------A
+        | class current
+      >> millivolt/s/--------V
+        | class potential
+      >> milliwatt/s/--------W
+        | class power
+    #class remove small
+
+  #class remove energy
+
+#class remove factor
+
+#class add length
+  >> centimeter/s/---------m
+    | class factor small
+  >> foot/---eet/---t
+  >> inch/es/--
+    | pron "IntS/"In-tSIz/"In
+  >> kilometer/s/--------m
+    | class factor large
+  >> light-year/s/---------y
+  >> meter/s/----
+    | pron m"i-t3`/m"i-t3`z/"Em
+  >> mile/s/--
+    | pron m"aIl/m"aI-Vlz/m"i
+  >> yard/s/---
+    | pron j"Arrd/j"Arrdz/w"aI
+#class remove length
+
+#class add volume
+  >> bucket/s/
+    | pron b"V-kIt/b"V-kVts/b"V-kIt
+  >> cubic centimeter/s/---------------c
+    | pron kj"u-bIk s"En-tV-m%i-t3`/kj"u-bIk s"En-tV-m%i-t3`z/s"i-s"i
+  >> cup/s/--
+    | pron k"Vp/k"Vps/s"i
+  >> gallon/s/---
+    | pron g"{-lVn/g"{-lVnz/g"{l
+  >> liter/s/*L
+  >> milliliter/s/---------L
+    | class factor small
+  >> pint/s/---t
+  >> quart/s/----t
+  >> tablespoon/s/---------bsp
+  >> teaspoon/s/-------sp
+#class remove volume
+
+#class add weight
+  >> gram/s/---
+    | pron gr"{m/gr"{mz/dZ"i
+  >> kilogram/s/-------g
+    | class factor large
+  >> megaton/s/M----;--
+    | class factor large
+  >> ounce/s/----z
+    | pron "aUns/"aUn-sIz/"Az
+  >> pound/s/*lb
+  >> ton/s/--
+    | pron t"Vn/t"Vnz/t"i
+#class remove weight
+
+>> joule/s/*J
+  | class energy

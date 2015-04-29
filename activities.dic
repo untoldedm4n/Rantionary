@@ -1,0 +1,15 @@
+#version 3
+#name activity
+#subs default
+
+#class add game
+  #class add sport
+    > Baseball
+    > Basketball
+    > Football
+    > Golf
+    > Soccer
+    > Tennis
+  #class remove sport
+
+#class remove game
