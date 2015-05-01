@@ -26,6 +26,24 @@
 
   #class remove alkaline_earth
 
+  #class add lanthanoid
+    > cerium/Ce
+    > dysprosium/Dy
+    > erbium/Er
+    > europium/Eu
+    > gadolinium/Gd
+    > holmium/Ho
+    > lanthanum/La
+    > lutetium/Lu
+    > neodymium/Nd
+    > praseodymium/Pr
+    > promethium/Pm
+    > samarium/Sm
+    > terbium/Tb
+    > thulium/Tm
+    > ytterbium/Yb
+  #class remove lanthanoid
+
   #class add post_transition
     > aluminum/Al
     > bismusth/Bi
@@ -35,6 +53,27 @@
     > thallium/Tl
     > tin/Sn
   #class remove post_transition
+
+  #class add radioactive
+    #class add actinoid
+      > actinium/Ac
+      > americium/Am
+      > berkelium/Bk
+      > californium/Cf
+      > curium/Cm
+      > einsteinium/Es
+      > fermium/Fm
+      > lawrencium/Lr
+      > mendelevium/Md
+      > neptunium/Np
+      > nobelium/No
+      > plutonium/Pu
+      > protactinium/Pa
+      > thorium/Th
+      > uranium/U
+    #class remove actinoid
+
+  #class remove radioactive
 
   #class add transition
     > cadmium/Cd
