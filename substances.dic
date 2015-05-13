@@ -1,4 +1,3 @@
-#version 3
 #name substance
 #subs default
 
@@ -33,6 +32,7 @@
     | pron m"eI-V-n%eIz
   > molten iron
     | pron m"oUl-tVn "aI-3`n
+  > mud
   > mustard
     | pron m"V-st3`d
   > oil
@@ -74,6 +74,8 @@
   | pron d"Arrk m"{-t3`
 > flour
   | pron fl"^rr
+> hamburger
+> happiness
 > oatmeal
   | pron "oUt-m%il
 > sand
@@ -98,4 +100,3 @@
 #class remove liquid
 
 > dick cheese
-> happiness
