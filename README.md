@@ -18,7 +18,14 @@ Some tables use Diffmark to save space and make entries more readable. Read abou
 
 ##NSFW content
 
-These dictionaries contain potentially objectionable content. Such entries should *always* be placed under a `#nsfw` context. Rant will exclude these entries by default when loading vocabulary, but if you want to include them, specify `NsfwFilter.Allow` in your `RantEngine` constructor.
+These dictionaries contain potentially objectionable content. Such entries should *always* be placed under a `nsfw` class. Rant will hide this class by default when loading dictionaries, but if you want to include them in queries without an explicit filter, do either of the following:
+```cs
+// From RantDictionary
+myDictionary.IncludeHiddenClass("nsfw");
+
+// From RantEngine
+engine.Dictionary.IncludeHiddenClass("nsfw");
+```
 
 ##License (or lack thereof)
 
