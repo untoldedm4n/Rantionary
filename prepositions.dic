@@ -1,6 +1,6 @@
-#version 3
 #name prepos
 #subs default
+#hidden nsfw
 
 #class add space
   > aboard

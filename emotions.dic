@@ -1,6 +1,6 @@
-#version 3
 #name emo
 #subs default
+#hidden nsfw
 
 > anger
   | pron "{N-g3`

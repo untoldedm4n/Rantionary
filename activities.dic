@@ -1,6 +1,6 @@
-#version 3
 #name activity
 #subs default
+#hidden nsfw
 
 #class add game
   #class add sport
@@ -13,3 +13,4 @@
   #class remove sport
 
 #class remove game
+

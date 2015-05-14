@@ -1,6 +1,6 @@
-#version 3
 #name x
 #subs default
+#hidden nsfw
 
 > ahhhhh mahh gahh
 > alas
@@ -66,9 +66,9 @@
   | pron m"aI m"aI
 > my oh my
   | pron m"aI "oU m"aI
-> noice
 > no way
   | pron n"oU w"eI
+> noice
 > oh boy
   | pron "oU b"OI
 > oh dear

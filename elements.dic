@@ -1,6 +1,6 @@
-#version 3
 #name element
 #subs name symbol
+#hidden nsfw
 
 #class add metal
   #class add alkali

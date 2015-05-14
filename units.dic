@@ -1,27 +1,27 @@
-#version 3
 #name unit
 #subs singular plural abbr
+#hidden nsfw
 
 #class add factor
   #class add energy
     #class add large
-      >> kilojoule/s/--------J
-      >> kilovolt/s/-------V
+      > kilojoule/kilojoules/kJ
+      > kilovolt/kilovolts/kV
         | class potential
-      >> kilowatt/s/-------W
+      > kilowatt/kilowatts/kW
         | class power
-      >> megawatt/s/*MW
+      > megawatt/megawatts/MW
         | class power
     #class remove large
 
     #class add small
-      >> microfarad/s/*μF
+      > microfarad/microfarads/μF
         | class capacitance
-      >> milliampere/s/----------A
+      > milliampere/milliamperes/mA
         | class current
-      >> millivolt/s/--------V
+      > millivolt/millivolts/mV
         | class potential
-      >> milliwatt/s/--------W
+      > milliwatt/milliwatts/mW
         | class power
     #class remove small
 
@@ -30,53 +30,53 @@
 #class remove factor
 
 #class add length
-  >> centimeter/s/---------m
+  > centimeter/centimeters/cm
     | class factor small
-  >> foot/---eet/---t
-  >> inch/es/--
+  > foot/feet/ft
+  > inch/inches/in
     | pron "IntS/"In-tSIz/"In
-  >> kilometer/s/--------m
+  > kilometer/kilometers/km
     | class factor large
-  >> light-year/s/---------y
-  >> meter/s/----
+  > light-year/light-years/ly
+  > meter/meters/m
     | pron m"i-t3`/m"i-t3`z/"Em
-  >> mile/s/--
+  > mile/miles/mi
     | pron m"aIl/m"aI-Vlz/m"i
-  >> yard/s/---
+  > yard/yards/y
     | pron j"Arrd/j"Arrdz/w"aI
 #class remove length
 
 #class add volume
-  >> bucket/s/
+  > bucket/buckets/bucket
     | pron b"V-kIt/b"V-kVts/b"V-kIt
-  >> cubic centimeter/s/---------------c
+  > cubic centimeter/cubic centimeters/cc
     | pron kj"u-bIk s"En-tV-m%i-t3`/kj"u-bIk s"En-tV-m%i-t3`z/s"i-s"i
-  >> cup/s/--
+  > cup/cups/c
     | pron k"Vp/k"Vps/s"i
-  >> gallon/s/---
+  > gallon/gallons/gal
     | pron g"{-lVn/g"{-lVnz/g"{l
-  >> liter/s/*L
-  >> milliliter/s/---------L
+  > liter/liters/L
+  > milliliter/milliliters/mL
     | class factor small
-  >> pint/s/---t
-  >> quart/s/----t
-  >> tablespoon/s/---------bsp
-  >> teaspoon/s/-------sp
+  > pint/pints/pt
+  > quart/quarts/qt
+  > tablespoon/tablespoons/tbsp
+  > teaspoon/teaspoons/tsp
 #class remove volume
 
 #class add weight
-  >> gram/s/---
+  > gram/grams/g
     | pron gr"{m/gr"{mz/dZ"i
-  >> kilogram/s/-------g
+  > kilogram/kilograms/kg
     | class factor large
-  >> megaton/s/M----;--
+  > megaton/megatons/Mt
     | class factor large
-  >> ounce/s/----z
+  > ounce/ounces/oz
     | pron "aUns/"aUn-sIz/"Az
-  >> pound/s/*lb
-  >> ton/s/--
+  > pound/pounds/lb
+  > ton/tons/t
     | pron t"Vn/t"Vnz/t"i
 #class remove weight
 
->> joule/s/*J
+> joule/joules/J
   | class energy

@@ -1,6 +1,6 @@
-#version 3
 #name vocal
 #subs default
+#hidden nsfw
 
 > aargh
 > ahem

@@ -1,7 +1,20 @@
 #name substance
 #subs default
+#hidden nsfw
 
 #class add liquid
+  #class add nsfw
+    > crotch juice
+    > cum
+    > diarrhea
+    > jizz
+    > lube
+    > pee
+    > piss
+    > pisswater
+    > urine
+  #class remove nsfw
+
   > acid
     | pron "{-sVd
   > beer
@@ -72,6 +85,8 @@
   | pron k"Orrn
 > dark matter
   | pron d"Arrk m"{-t3`
+> dick cheese
+  | class nsfw
 > flour
   | pron fl"^rr
 > hamburger
@@ -84,19 +99,3 @@
   | pron sn"oU
 > spaghetti
   | pron spV-g"E-ti
-
-#nsfw
-
-#class add liquid
-  > crotch juice
-  > cum
-  > diarrhea
-  > jizz
-  > lube
-  > pee
-  > piss
-  > pisswater
-  > urine
-#class remove liquid
-
-> dick cheese

@@ -1,6 +1,6 @@
-#version 3
 #name name
 #subs default
+#hidden nsfw
 
 #class add female
   > Aaliyah

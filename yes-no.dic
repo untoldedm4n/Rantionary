@@ -1,6 +1,6 @@
-#version 3
 #name yn
 #subs default
+#hidden nsfw
 
 #class add no
   > absolutely not
@@ -69,6 +69,7 @@
   > yeppers
   > yes
     | pron j"Es
-  >> yes
+  > yes
     | pron j"Es
 #class remove yes
+

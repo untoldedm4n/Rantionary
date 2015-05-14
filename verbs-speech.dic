@@ -1,5 +1,6 @@
 #name say
 #subs simple ing ed s er pp noun
+#hidden nsfw
 
 #class add loud
   >> bawl/ing/ed/s/er/ed/ing

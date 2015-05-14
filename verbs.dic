@@ -1,6 +1,6 @@
-#version 3
 #name verb
 #subs simple ing ed s er pp nom
+#hidden nsfw
 
 #class add intransitive
   #class add eat
@@ -30,10 +30,22 @@
       | pron st"{nd/st"{n-dIN/st"Ud/st"{ndz/st"{n-d3`/st"Ud/st"{n-dIN
   #class remove pose
 
+  >> defecate/-ing/d/s/-or/d/-ion
+    | class liquid nsfw transitive
+  >> ejaculate/-ing/d/s/-or/d/-ion
+    | class liquid nsfw sex
   >> fume/-ing/d/s/r/d/-ing
+  >> gyrate/-ing/d/s/-or/d/-ion
+    | class motion move nsfw
   >> lather/ing/ed/s/er/ed/ing
+  >> masturbate/-ing/d/s/-or/d/-ion
+    | class nsfw sex
   >> pray/ing/ed/s/er/ed/er
     | pron pr"eI/pr"eI-IN/pr"eId/pr"eIz/pr"eI-3`/pr"eId/pr"eI-3`
+  >> twerk/ing/ed/s/er/ed/ing
+    | class motion nsfw
+  >> urinate/-ing/d/s/-or/d/-ion
+    | class liquid nsfw
 #class remove intransitive
 
 #class add motion
@@ -50,6 +62,14 @@
       | pron st"Ik/st"I-kIN/st"Vk/st"Iks/st"I-k3`/st"Vk/st"I-kIN
     >> wedge/-ing/d/s/r/d/-ing
   #class remove insert
+
+  #class add nsfw
+    >> belly-flop/ping/ped/s/per/ped/ping
+      | class intransitive
+    >> palpitate/-ing/d/s/r/d/-ion
+    >> square dance/-ing/d/s/r/d/-ing
+      | class intransitive
+  #class remove nsfw
 
   >> bang/ing/ed/s/er/ed/ing
     | pron b"{N/b"{-NIN/b"{Nd/b"{Nz/b"{-N3`/b"{Nd/b"{-NIN
@@ -222,6 +242,28 @@
     >> squirt/ing/ed/s/er/ed/ing
       | class intransitive
   #class remove liquid
+
+  #class add nsfw
+    #class add sex
+      >> cockblast/ing/-----flasted/s/er/ed/ing
+        | class liquid
+      >> fellate/-ing/d/s/r/d/-io
+      >> fuck/ing/ed/s/er/ed/ing
+        | class intransitive
+      >> mount/ing/ed/s/er/ed/ing
+      >> please/-ing/d/s/r/-ted/-ing
+      >> thrust/ing//s/er/ed/ing
+        | class insert intransitive motion
+      >> titfuck/ing/ed/----ucks/er/ed/ing
+      >> turbohump/ing/ed/s/er/ed/ification
+    #class remove sex
+
+    >> erect/ing/ed/s/or/ed/ion
+    >> fertilize/-ing/d/s/r/d/-ation
+    >> finger/ing/ed/s/er/ed/ing
+    >> grope/-ing/d/s/r/d/-ing
+      | class violent
+  #class remove nsfw
 
   >> articulate/-ing/d/s/-or/d/-ion
   >> barbeque/-ing/d/s/r/d/-ing
@@ -504,49 +546,3 @@
 >> want/ing/ed/s/er/ed/
   | class like
 >> whisper/ing/ed/s/er/ed/ing
-
-#nsfw
-
-#class add intransitive
-  >> defecate/-ing/d/s/-or/d/-ion
-    | class liquid transitive
-  >> ejaculate/-ing/d/s/-or/d/-ion
-    | class liquid sex
-  >> gyrate/-ing/d/s/-or/d/-ion
-    | class motion move
-  >> masturbate/-ing/d/s/-or/d/-ion
-    | class sex
-  >> twerk/ing/ed/s/er/ed/ing
-    | class motion
-  >> urinate/-ing/d/s/-or/d/-ion
-    | class liquid
-#class remove intransitive
-
->> square dance/-ing/d/s/r/d/-ing
-	| class motion intransitive
->> palpitate/-ing/d/s/r/d/-ion
-	| class motion
->> belly-flop/ping/ped/s/per/ped/ping
-	| class motion intransitive
-
-#class add transitive
-  #class add sex
-    >> cockblast/ing/-----flasted/s/er/ed/ing
-      | class liquid
-    >> fellate/-ing/d/s/r/d/-io
-    >> fuck/ing/ed/s/er/ed/ing
-      | class intransitive
-    >> mount/ing/ed/s/er/ed/ing
-    >> please/-ing/d/s/r/-ted/-ing
-    >> thrust/ing//s/er/ed/ing
-      | class insert intransitive motion
-    >> titfuck/ing/ed/----ucks/er/ed/ing
-    >> turbohump/ing/ed/s/er/ed/ification
-  #class remove sex
-
-  >> erect/ing/ed/s/or/ed/ion
-  >> fertilize/-ing/d/s/r/d/-ation
-  >> finger/ing/ed/s/er/ed/ing
-  >> grope/-ing/d/s/r/d/-ing
-    | class violent
-#class remove transitive
