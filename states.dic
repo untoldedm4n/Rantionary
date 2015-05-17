@@ -1,7 +1,7 @@
 #name state
 #subs name abbr
 
-#type country [usa] *
+#type country "usa" *
 
 #class add usa
   > Alabama/AL

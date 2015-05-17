@@ -1,0 +1,72 @@
+#name celeb
+#subs full first last
+#type gender "male female" *
+
+> Arnold Schwarzenegger/Arnold/Schwarzenegger
+  | class male austrian actor governor
+> Daniel Radcliffe/Daniel/Radcliffe
+  | class male british actor
+> Leonardo DiCaprio/Leonardo/DiCaprio
+  | class male actor
+> Tom Cruise/Tom/Cruise
+  | class male actor
+> Brad Pitt/Brad/Pitt
+  | class male actor producer
+> Morgan Freeman/Morgan/Freeman
+  | class male american actor
+> Tom Hanks/Tom/Hanks
+  | class male american actor
+> Hugh Jackson/Hugh/Jackson
+  | class male australian actor
+> Emma Watson/Emma/Watson
+  | class female english actor
+> Justin Bieber/Justin/Bieber
+  | class male canadian singer
+> Johnny Depp/Johnny/Depp
+  | class male actor
+> 50 Cent/50/Cent
+  | class male american singer songwriter
+> Will Smith/Will/Smith
+  | class male american actor
+> Robert Downey Jr./Robert/Downey
+  | class male actor
+> Christian Bale/Christian/Bale
+  | class male american actor
+> Natalie Portman/Natalie/Portman
+  | class female jewish actor
+> Orlando Bloom/Orlando/Bloom
+  | class male english actor
+> Eminem/Marshall/Mathers
+  | class male american rapper songwriter actor
+> Adam Sandler/Adam/Sandler
+  | class male american actor
+> Rihanna/Robyn/Fenty
+  | class female singer actor
+> Scarlett Johansson/Scarlett/Johansson
+  | class female american actor
+> Anne Hathaway/Anne/Hathaway
+  | class female american actor
+> Jessica Alba/Jessica/Alba
+  | class female american actor
+> Edward Norton/Edward/Norton
+  | class male american actor
+> Will Ferrell/Will/Ferrell
+  | class male american actor comedian producer writer
+> Julia Roberts/Julia/Roberts
+  | class female american actor
+> Nicolas Cage/Nicolas/Cage
+  | class male american actor
+> Shia LaBeouf/Shia/LaBeouf
+  | class male american actor
+> Megan Fox/Megan/Fox
+  | class female american actor
+> Robin Willians/Robin/Williams
+  | class male american actor comedian
+> Bill Murray/Bill/Murray
+  | class male american actor comedian
+> John Travolta/John/Travolta
+  | class male american actor singer dancer
+> Channing Tatum/Channing/Tatum
+  | class male american actor producer dancer model
+> Emma Stone/Emma/Stone
+  | class female american actor
