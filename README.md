@@ -1,6 +1,6 @@
 Rantionary
 =========
-[![Build status](https://ci.appveyor.com/api/projects/status/h1yofv92ah9dhoeu?svg=true)](https://ci.appveyor.com/project/TheBerkin/rantionary)
+[![Build status](https://ci.appveyor.com/api/projects/status/p3hejok9vys7agkn?svg=true)](https://ci.appveyor.com/project/TheBerkin/rantionary-4x1ls)
 
 This is the official dictionary for use with [Rant](http://github.com/TheBerkin/Rant).
 
