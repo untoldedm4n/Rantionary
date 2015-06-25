@@ -1,5 +1,5 @@
 #name rel
-#subs singular plural
+#subs singular s
 #hidden nsfw
 
 #class add female
@@ -74,4 +74,3 @@
   >> master/s
     | pron m"{-st3`/m"{-st3`z
 #class remove neutral
-

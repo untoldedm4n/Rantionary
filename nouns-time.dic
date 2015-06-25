@@ -1,5 +1,5 @@
 #name timenoun
-#subs singular plural
+#subs singular s
 #hidden nsfw
 
 #class add dayofweek
@@ -83,4 +83,3 @@
   >> year/s
     | pron j"Irr/j3`z
 #class remove unit
-

@@ -1,5 +1,5 @@
 #name abstract
-#subs singular plural
+#subs singular s
 #hidden nsfw
 
 #class add concept
@@ -64,4 +64,3 @@
   >> understanding/s
     | pron %Vn-d3`-st"{n-dIN/Vn-d3`-st"{n-dINz
 #class remove social
-

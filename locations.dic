@@ -1,5 +1,5 @@
 #name place
-#subs singular plural
+#subs singular s
 #hidden nsfw
 
 #class add indoor
@@ -237,4 +237,3 @@
   > street/streets
     | pron str"it/str"its
 #class remove outdoor
-
