@@ -4,7 +4,7 @@ Rantionary
 
 This is the official dictionary for use with [Rant](http://github.com/TheBerkin/Rant).
 
-The latest .rantpkg build can be downloaded from [AppVeyor](https://ci.appveyor.com/project/TheBerkin/rantionary/build/artifacts).
+The latest .rantpkg build can be downloaded from [AppVeyor](https://ci.appveyor.com/project/TheBerkin/rantionary-4x1ls/build/artifacts).
 
 ##Resources
 
