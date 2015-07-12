@@ -1068,16 +1068,20 @@
     | pron tS"aIld/tS"Il-drVn
   >> dude/s
     | pron d"ud/dj"udz
+    | class adult male
   >> elf/-ves
     | pron "Elf/"Elvz
   >> lady/-ies
     | pron l"eI-di/l"eI-diz
+    | class adult female
   >> man/--en
     | pron m"{n/m"En
+    | class adult male
   >> teen/s
     | pron t"in/t"inz
   >> woman/--en
     | pron w"U-mVn/w"I-mVn
+    | class adult female
 #class remove person
 
 #class add plant
