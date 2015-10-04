@@ -1,8 +1,6 @@
 #name state
 #subs name abbr
 
-#type country "usa" *
-
 #class add usa
   > Alabama/AL
   > Alaska/AK

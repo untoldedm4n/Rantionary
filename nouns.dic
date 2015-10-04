@@ -1515,6 +1515,7 @@
   | pron tr"V-fVl/tr"V-fVlz
 >> truth/s
   | pron tr"uT/tr"uTs
+  | class abstract
 >> tuber/s
 >> urinal/s
   | class white
@@ -1530,3 +1531,17 @@
 >> wrinkle/s
   | pron r"IN-kVl/r"IN-kVlz
 >> zygote/s
+>> dry\-erase marker/s
+  | class long tool
+>> aileron/s
+  | class aviation articulated
+>> kazoo/s
+  | class instrument long
+>> clarinet/s
+  | class instrument long
+>> tuba/s
+  | class brass instrument
+>> pencil case/s
+  | class container
+>> turnip/s
+  | class vegetable food
