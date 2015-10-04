@@ -1,6 +1,6 @@
 #name verb
 #subs simple ing ed s er pp nom noms
-#hidden nsfw
+#hidden nsfw dative
 
 #class add intransitive
   #class add eat
@@ -567,3 +567,27 @@
   | class intransitive transitive dative arrange axial
 >> undulate/-ing/d/s/r/d/-ion/-ions
   | class motion smooth wave intransitive transitive
+>> undermine/-ing/d/s/r/d/-ing/-ings
+  | class transitive
+>> enforce/-ing/d/s/r/d/ment/ments
+  | class transitive
+>> savor/ing/ed/s/er/ed/ing/ings
+  | class transitive
+>> slay/ing/ed/s/er/-in/ing/ings
+  | class transitive violent permanent
+>> solidify/ing/-ied/-ies/-ier/-ied/-ication/-ications
+  | class transitive intransitive
+>> fabricate/-ing/d/s/-or/d/-ion/-ions
+  | class transitive
+>> associate/-ing/d/s/-or/d/-ion/-ions
+  | class transitive intransitive dative
+>> fantasize/-ing/d/s/er/d/y/-ies
+  | class intransitive dative
+>> verify/ing/-ied/-ies/-ier/-ied/-ication/-ications
+  | class transitive
+>> prove/-ing/d/s/r/d/--of/--ofs
+  | class dative relative test permanent
+>> rearrange/-ing/d/s/r/d/ment/ments
+  | class transitive order
+>> impede/-ing/d/s/r/d/-iment/-iments
+  | class transitive impede

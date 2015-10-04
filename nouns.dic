@@ -1545,3 +1545,56 @@
   | class container
 >> turnip/s
   | class vegetable food
+>> fulcrum/s
+>> toolbox/es
+  | class container
+>> notebook/s
+  | class paper
+>> boxcar/s
+  | class train
+>> thermometer/s
+  | class tool long
+>> goiter/s
+  | class growth
+>> bicycle/s
+  | class vehicle
+>> bicycle pump/s
+  | class tool long
+>> allen wrench/es
+  | class tool long
+>> whale/s
+  | class fish
+>> doorknob/s
+>> spray nozzle
+  | class long
+>> glowstick/s
+  | class long light
+>> hairbrush/es
+  | class tool grooming
+>> hematoma/s
+  | class growth
+>> bayonet/s
+  | class long weapon sharp metal
+>> sugar cube/s
+  | class food
+>> mushroom/s
+  | class food fungus
+>> salad/s
+  | class food
+>> quill/s
+  | class long sharp tool
+>> county/-ies
+  | class geo
+>> kidney bean/s
+  | class food
+>> gas giant/s
+  | class astronomy
+>> proxy/-ies
+>> fissure/s
+  | class hole
+>> bun/s
+  | class food hairstyle
+>> hair dryer/---iers
+  | class tool grooming
+>> delicacy/-ies
+>> facet/s

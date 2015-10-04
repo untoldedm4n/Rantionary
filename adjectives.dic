@@ -846,6 +846,8 @@
   | pron skw"i-mIS/skw"i-mIS-nVs
 > squirrely/furriness
 > squishy/squishiness
+>> sour/ness
+  | class taste
 > standard/standardness
 > steamy/steaminess
 > sterile/sterility
@@ -865,6 +867,8 @@
 > super/superness
 > superb/superbness
 > superfluous/superfluousness
+>> sweet/ness
+  | class taste
 > supple/softness
   | pron s"V-pVl/s"Of-nVs
 > supplementary/supplementariness
@@ -875,8 +879,10 @@
   | pron sw"Ift/l"aIt-nIN sp"id
 > tactical/tacticalness
 > tangy/tanginess
+  | class taste
 > tasty/tastiness
   | pron t"eI-sti/t"eI-sti-nVs
+  | class taste
 > tattered/wear
   | pron t"{-t3`d/w"err
 > tender/tenderness
@@ -946,7 +952,25 @@
 > young/youth
   | pron j"VN/j"uT
 > yummy/yumminess
+  | class taste
 > zen/zenness
 > zesty/zestiness
+  | class taste
 >> abhorrent/-ce
 >> immoral/ity
+>> monogamous/---y
+>> polygamous/---y
+>> misaligned/ness
+>> vertical/ness
+>> horizontal/ness
+>> concrete/ness
+>> infallible/--ility
+>> gullible/--ility
+> disorganized/disorder
+>> calcified/--cation
+>> stereotypical/ness
+>> artificial/ness
+>> eager/ness
+  | class emotion
+>> bitter/ness
+  | class taste emotion
