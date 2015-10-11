@@ -6,22 +6,29 @@
   > ancient/ancience
   > attractive/attractiveness
     | pron V-tr"{k-tIv/V-tr"{k-tIv-nVs
+    | class cp1
   > battered/batteredness
+    | class cn2
   > bearded/beardedness
   > beautiful/beauty
     | pron bj"u-tV-fVl/bj"u-ti
+    | class cp1
   > bent/deformation
     | pron b"Ent/d%i-fOrr-m"eI-SVn
   > black/blackness
     | pron bl"{k/bl"{k-nVs
   > blinding/brightness
     | pron bl"aIn-dIN/br"aIt-nVs
+    | class cn1
   > brown/brownness
   > bubbly/bubbliness
+    | class c0
   > colorful/color
     | pron k"V-l3`-fVl/k"O-l3`
+    | class c0
   > colossal/colossality
   > corrugated/corrugation
+    | class c0
   > crooked/crookedness
     | pron kr"U-kVd/kr"U-kVd-nVs
   > crusty/crustiness
@@ -32,6 +39,7 @@
   > delicate/delicateness
   > dirty/dirt
     | pron d"3`-ti/d"3`t
+    | class cn2
   > dry/dryness
     | pron dr"aI/dr"aI-nVs
   > dusty/dustiness
@@ -41,6 +49,7 @@
     | pron Ik-sp"oUzd/Ik-sp"oU-Z3`
   > filthy/filth
     | pron f"Il-Ti/f"IlT
+    | class cn2
   > floppy/floppiness
   > fluffy/fluffiness
   > foamy/foaminess
@@ -51,6 +60,7 @@
   > gigantic/impressive size
     | pron dZaI-g"{-nIk/Im-pr"E-sIv s"aIz
   > glamourous/glamour
+    | class cp1
   > glittery/glitter
     | pron gl"I-t3`-i/gl"I-t3`
   > glossy/glossiness
@@ -60,6 +70,7 @@
     | pron gr"in/gr"in-nVs
   > grey/greyness
   > grimy/griminess
+    | class cn2
   > hulking/hulkingness
   > humongous/humongousness
   > invisible/invisibility
@@ -127,6 +138,7 @@
   > transparent/transparence
   > ugly/ugliness
     | pron "Vg-li/"Vg-li-nVs
+    | class cn2
   > uneven/unevenness
   > veiny/veininess
   > weedy/weediness
@@ -146,15 +158,19 @@
 #class add emotion
   > aggravated/aggression
     | pron "{-grV-v%eI-tId/V-gr"E-SVn
+    | class cn1
   > angry/anger
     | pron "{N-gri/"{N-g3`
+    | class cn1
   > arrogant/arrogance
     | pron "E-rV-gVnt/"E-rV-gVns
+    | class cn2
   > ashamed/shame
     | pron V-S"eImd/S"eIm
   > awed/awe
     | pron "Od/"O
   > bittersweet/bittersweetness
+    | class cn1
   > blissful/bliss
     | pron bl"Is-fVl/bl"Is
   > bored/boredom
@@ -162,32 +178,45 @@
   > cheeky/cheekiness
   > contemptuous/contempt
     | pron kVn-t"Emp-tSu-Vs/kVn-t"Empt
+    | class cn2
   > content/contentfulness
   > cranky/crankiness
   > devilish/devilishness
+    | class cn1
   > disappointed/disappointment
     | pron d%Is-V-p"OI-nId/d%Is-V-p"OInt-mVnt
+    | class cn1
   > emo/emness
+    | class cn2
   > envious/envy
     | pron "En-vi-Vs/"En-vi
+    | class cn2
   > evil/evil
     | pron "i-vVl/"i-vVl
+    | class cn2
   > flirty/flirtiness
+    | class cn1
   > frightened/fright
     | pron fr"aI-tVnd/fr"aIt
+    | class cn1
   > furious/fury
     | pron fj"U-ri-Vs/fj"U-ri
+    | class cn1
   > gay/gayness
     | pron g"eI/g"eI-nVs
+    | class cn1
   > gleeful/glee
     | pron gl"i-fVl/gl"i
+    | class cp1
   > groggy/grogginess
   > guilty/guilt
     | pron g"Il-ti/g"Ilt
   > happy/happiness
     | pron h"{-pi/h"{-pi-nVs
+    | class cp1
   > hateful/hate
     | pron h"eIt-fVl/h"eIt
+    | class cn2
   > horrified/horror
     | pron h"O-rV-f%aId/h"O-r3`
   > humiliated/humility
@@ -204,20 +233,27 @@
     | pron dZ"E-lVs/"En-vi
   > joyful/joy
     | pron dZ"OI-fVl/dZ"OI
+    | class cp1
   > longing/longing
     | pron l"O-NIN/l"O-NIN
   > loving/love
     | pron l"V-vIN/l"Vv
+    | class cp1
   > lustful/lust
     | pron l"Vst-fVl/l"Vst
+    | class cn1
   > mad/madness
     | pron m"{d/m"{d-nVs
+    | class cn1
   > naughty/naughtiness
+    | class cn1
   > optimistic/optimism
     | pron %Ap-tV-m"I-stIk/"Ap-tV-m%I-zVm
+    | class c0
   > pleasured/pleasure
   > proud/pride
     | pron pr"aUd/pr"aId
+    | class cn1
   > raging/rage
     | pron r"eI-dZIN/r"eIdZ
   > remorseful/remorse
@@ -243,23 +279,23 @@
 #class remove emotion
 
 #class add nationality
-  > African/Africanheritage
+  > African/Africa nheritage
   > African-American/African-Americanness
-  > American/Americanheritage
-  > Australian/Australianheritage
-  > British/Britishheritage
-  > Canadian/Canadianheritage
-  > Chinese/Chineseheritage
-  > French/Frenchheritage
-  > German/Germanheritage
-  > Irish/Irishheritage
-  > Italian/Italianheritage
-  > Japanese/Japaneseheritage
-  > Korean/Koreanheritage
-  > Mexican/Mexicanheritage
-  > Norwegian/Norwegianheritage
-  > Russian/Russianheritage
-  > Spanish/Spanishheritage
+  > American/American heritage
+  > Australian/Australian heritage
+  > British/British heritage
+  > Canadian/Canadian heritage
+  > Chinese/Chinese heritage
+  > French/French heritage
+  > German/German heritage
+  > Irish/Irish heritage
+  > Italian/Italian heritage
+  > Japanese/Japanese heritage
+  > Korean/Korean heritage
+  > Mexican/Mexican heritage
+  > Norwegian/Norwegian heritage
+  > Russian/Russian heritage
+  > Spanish/Spanish heritage
 #class remove nationality
 
 #class add nsfw
@@ -331,6 +367,7 @@
   | pron bl"{s-fV-mVs/bl"{s-fV-mi
 > bloodthirsty/bloodthirstiness
 > bloody/bloodiness
+  | class cn1
 > blue/blueness
 > bold/boldness
   | pron b"oUld/b"oUld-nVs
@@ -352,6 +389,7 @@
 > certified/certification
   | pron s"3`-tV-f%aId/s%3`-tV-fV-k"eI-SVn
 > charitable/charitability
+  | class cp1
 > charming/charm
   | pron tS"Arr-mIN/tS"Arrm
 > cheerful/cheer
@@ -628,7 +666,6 @@
 > luxurious/luxuriousness
 > magical/magic
   | pron m"{-dZI-kVl/m"{-dZIk
-> magnificent/magnificence
 > major-league/major-leagueness
 > malleable/malleability
   | pron m"{-li-V-bVl/m%{-li-V-b"I-lV-ti
@@ -974,3 +1011,25 @@
   | class emotion
 >> bitter/ness
   | class taste emotion
+>> magnificent/-ce
+  | class cp1
+>> admirable/--ility
+  | class cp1
+>> fine/ness
+  | class cp1
+>> wonderful/ness
+  | class cp1
+>> splendiferous/ness
+  | class cp1
+>> smoking/ness
+  | class cp1 appearance
+>> tidy/-iness
+  | class cp1 appearance
+>> gracious/----e
+  | class cp1
+>> lonely/-iness
+  | class emotion c0
+>> loud/ness
+  | class c0
+>> quiet/ness
+  | class c0
