@@ -1218,6 +1218,7 @@
   >> squeegee/s
   >> vacuum/s
     | pron v"{-kjum/v"{-kjumz
+  >> sledgehammer/s
 #class remove tool
 
 #class add vehicle
@@ -1298,6 +1299,7 @@
   | pron b"VldZ/b"Vl-dZIz
 >> butt joint/s
 >> butter dish/es
+  | class household
 >> button/s
   | pron b"V-tVn/b"V-tVnz
 >> buttonhole/s
@@ -1309,6 +1311,7 @@
   | pron k"{-nI-st3`/k"{-nI-st3`z
 >> car/s
   | pron k"Arr/k"Az
+  | class vehicle
 >> carcass/es
   | pron k"Arr-kVs/k"Arr-kV-sIz
 >> card/s
@@ -1320,8 +1323,10 @@
   | pron sI-m"Ent/sI-m"Ent
 >> cheeseburger/s
   | pron tS"iz-b3`-g3`/tS"iz-b3`-g3`z
+  | class food
 >> chicken wing/s
   | pron tS"I-kVn w"IN/tS"I-kVn w"INz
+  | class food
 >> clock/s
   | pron kl"Ak/kl"Aks
 >> coaster/s
@@ -1347,6 +1352,9 @@
   | pron d"Ik-SV-n%E-ri/d"Ik-SV-n%E-riz
 >> dime/s
   | pron d"aIm/d"aImz
+  | class currency coin
+>> quarter/s
+  | class currency coin
 >> dingleberry/-ies
 >> disco ball/s
   | pron d"I-skoU b"Ol/d"I-skoU b"Olz
@@ -1361,6 +1369,7 @@
 >> duct tape/
   | pron d"Vkt t"eIp/d"Vkt t"eIp
 >> dynamite/s
+  | class weapon explosive bomb long
 >> earwax/
   | pron "Irr-w%{ks/"Irr-w%{ks
 >> enigma/s
@@ -1375,6 +1384,7 @@
   | pron f"i-tVs/f"i-tV-sIz
 >> flapjack/s
 >> flowerpot/s
+  | class container
 >> fog/s
 >> football/s
   | pron f"Ut-b%Ol/f"Ut-b%Olz
@@ -1383,14 +1393,16 @@
 >> garden/s
   | pron g"Arr-dVn/g"Arr-dVnz
 >> gearshift/s
+  | class machine
 >> ghost/s
   | pron g"oUst/g"oUs
 >> giblet/s
 >> globe/s
   | pron gl"oUb/gl"oUbz
+  | class shape
 >> grass/es
   | pron gr"{s/gr"{-sIz
-  | class green
+  | class green plant
 >> hemorroid/s
 >> hole/s
   | pron h"oUl/h"oUlz
@@ -1422,6 +1434,7 @@
 >> magnifying glass/es
   | pron m"{g-nV-f%aI-IN gl"{s/m"{g-nV-f%aI-IN gl"{-sIz
 >> manhole/s
+  | class hole
 >> manure/
   | pron mV-n"Urr/mV-n"Urr
 >> mask/s
@@ -1451,8 +1464,10 @@
 >> pedestrian/s
   | pron pV-d"Es-tri-Vn/pV-d"Es-tri-Vnz
 >> peninsula/s
+  | class geographical
 >> penny/-ies
   | pron p"E-ni/p"E-niz
+  | class currency coin
 >> peppermint/s
 >> pizza/s
   | pron p"it-sV/p"it-sVz
@@ -1461,12 +1476,14 @@
 >> pope/s
   | pron p"oUp/p"oUpz
 >> popsicle/s
+  | class food frozen
 >> puppet/s
   | pron p"V-pIt/p"V-pIts
 >> pylon/s
   | pron p"aI-l%An/p"aI-l%Anz
 >> rabies/
   | pron r"eI-biz/r"eI-biz
+  | class disease
 >> radish/es
   | pron r"{-dIS/r"{-dI-SIz
   | class red vegetable
@@ -1486,6 +1503,7 @@
   | pron sk"{b/sk"{bz
 >> scuba/s
 >> sharpie/s
+  | class long tool drawing writing marker
 >> shrub/s
   | pron Sr"Vb/Sr"Vbz
 >> shuttlecock/s
@@ -1502,6 +1520,7 @@
 >> tea bag/s
   | pron t"i b"{g/t"i b"{gz
 >> teapot/s
+  | class household container
 >> teddy bear/s
   | pron t"E-di b"err/t"E-di b"errz
 >> tire/s
@@ -1517,13 +1536,15 @@
   | pron tr"uT/tr"uTs
   | class abstract
 >> tuber/s
+  | class plant
 >> urinal/s
   | class white
 >> ventricle/s
 >> wall/s
   | pron w"Ol/w"Olz
+  | class surface architecture vertical
 >> wedgie/s
-  | class act
+  | class act violent
 >> wig/s
   | pron w"Ig/w"Igz
 >> wool/
@@ -1563,10 +1584,11 @@
 >> allen wrench/es
   | class tool long
 >> whale/s
-  | class fish
+  | class fish animal
 >> doorknob/s
+  | class household
 >> spray nozzle
-  | class long
+  | class long hole
 >> glowstick/s
   | class long light
 >> hairbrush/es
@@ -1595,6 +1617,57 @@
 >> bun/s
   | class food hairstyle
 >> hair dryer/---iers
-  | class tool grooming
+  | class tool grooming machine
 >> delicacy/-ies
 >> facet/s
+>> diode/s
+>> great-stellated dodecahedron/s
+  | class shape
+>> leather horsewhip/s
+  | class long weapon flexible leather tool
+>> felt-tip pen/s
+  | class long writing drawing tool pen
+>> ballpoint pen/s
+  | class long writing drawing tool pen
+>> charcoal pencil/s
+  | class long writing drawing tool pencil
+>> oil pastel/s
+  | class long drawing tool pastel
+>> paintbrush/es
+  | class long drawing painting tool brush
+>> meme/s
+  | class dank internet culture
+>> bald eagle/s
+  | class bird eagle
+>> rhino horn/s
+  | class horn long hard
+>> elephant tusk/s
+  | class tusk long hard
+>> ram horn/s
+  | class horn long hard
+>> mountain goat/s
+  | class animal goat
+>> articulated bus/es
+  | class vehicle bus long flexible articulated
+>> Bavarian hat/s
+  | class clothing hat
+>> fedora/s
+  | class clothing hat
+>> stop sign/s
+  | class traffic sign regulatory
+>> fanny pack/s
+  | class accessory container wearable
+>> cinder block/s
+  | class hard
+>> vaccine/s
+  | class medical drug
+>> printer/s
+  | class office machine printing
+>> copy machine/s
+  | class office machine printing copying
+> mouse/mice
+  | class animal rodent
+> mouse/mice
+  | class office machine computer pointing
+>> grandfather clock/s
+  | class clock long machine
