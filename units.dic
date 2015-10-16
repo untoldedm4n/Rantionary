@@ -80,3 +80,8 @@
 
 > joule/joules/J
   | class energy
+
+> mouthful/mouthfuls/mfl
+  | class volume rough
+> handful/handfuls/hfl
+  | class volume rough

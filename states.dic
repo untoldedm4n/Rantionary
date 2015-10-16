@@ -53,3 +53,22 @@
   > Wisconsin/WI
   > Wyoming/WY
 #class remove usa
+
+#class add germany
+  > Baden-Württemberg/BW
+  > Bavaria/BY
+  > Berlin/BE
+  > Brandenburg/BB
+  > Bremen/HB
+  > Hamburg/HH
+  > Hesse/HE
+  > Lower Saxony/NI
+  > Mecklenburg-Vorpommern/MV
+  > North Rhine-Westphalia/NW
+  > Rhineland-Palatinate/RP
+  > Saarland/SL
+  > Saxony/SN
+  > Saxony-Anhalt/ST
+  > Schleswig-Holstein/SH
+  > Thuringia/TH
+#class remove germany
