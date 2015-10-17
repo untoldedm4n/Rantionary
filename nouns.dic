@@ -85,6 +85,7 @@
     >> octopus/--i
       | pron "Ak-tV-p%Us/"Ak-tV-paI
     >> squid/s
+    >> whale/s
   #class remove fish
 
   #class add insect
@@ -194,6 +195,10 @@
     | pron m"{-mVT/m"{-mVTs
   >> mayor/s
     | pron m"eI-3`/m"eI-3`z
+  >> mountain goat/s
+    | class goat
+  >> mouse/----ice
+    | class rodent
   >> newt/s
     | pron n"ut/n"uts
   >> otter/s
@@ -327,18 +332,6 @@
       | class mouth
   #class remove head
 
-  #class add long
-    >> finger/s
-      | pron f"IN-g3`/f"IN-g3`z
-      | class hand
-    >> leg/s
-      | pron l"Eg/l"Egz
-    >> tentacle/s
-      | pron t"En-tV-kVl/t"En-tV-kVlz
-    >> umbilical cord/s
-      | pron Vm-b"I-lI-kVl k"Orrd/Vm-b"I-lI-kVl k"Orrdz
-  #class remove long
-
   #class add nsfw
     #class add sex
     #class remove sex
@@ -375,11 +368,17 @@
     | class bone
   >> fibula/s
     | class bone
+  >> finger/s
+    | pron f"IN-g3`/f"IN-g3`z
+    | class hand long
   >> foot/---eet
   >> kneecap/s
     | pron n"i-k%{p/n"i-k%{ps
   >> knuckle/s
     | pron n"V-kVl/n"V-kVlz
+  >> leg/s
+    | pron l"Eg/l"Egz
+    | class long
   >> loin/s
   >> navel/s
   >> neck/s
@@ -390,6 +389,9 @@
     | pron sk"In/sk"In
   >> stinger/s
     | pron st"I-N3`/st"I-N3`z
+  >> tentacle/s
+    | pron t"En-tV-kVl/t"En-tV-kVlz
+    | class long
   >> throat/s
     | pron Tr"oUt/Tr"oUts
   >> toe/s
@@ -400,6 +402,9 @@
     | class foot
   >> tooth/----eeth
     | pron t"uT/t"iT
+  >> umbilical cord/s
+    | pron Vm-b"I-lI-kVl k"Orrd/Vm-b"I-lI-kVl k"Orrdz
+    | class long
   >> whisker/s
     | pron hw"I-sk3`/hw"I-sk3`z
     | class face hair
@@ -442,8 +447,11 @@
   >> drawer/s
     | pron dr"Orr/dr"Orrz
   >> duffel bag/s
+  >> fanny pack/s
+    | class accessory wearable
   >> flask/s
     | pron fl"{sk/fl"{sks
+  >> flowerpot/s
   >> footlocker/s
   >> freezer/s
     | pron fr"i-z3`/fr"i-z3`z
@@ -463,6 +471,7 @@
     | pron p"{-kIdZ/p"{-kI-dZIz
   >> packet/s
     | pron p"{-kIt/p"{-kIts
+  >> pencil case/s
   >> pickle jar/s
     | pron p"I-kVl dZ"Arr/p"I-kVl dZ"Arrz
   >> pipe/s
@@ -484,10 +493,13 @@
   >> skillet/s
   >> suitcase/s
     | pron s"ut-k%eIs/s"ut-k%eI-sIz
+  >> teapot/s
+    | class household
   >> test tube/s
     | pron t"Est tj"ub/t"Est t"ubz
   >> toilet/s
     | pron t"OI-lVt/t"OI-lVts
+  >> toolbox/es
   >> trashcan/s
   >> trunk/s
     | pron tr"VNk/tr"VNks
@@ -504,6 +516,20 @@
   >> well/s
     | pron w"El/w"Elz
 #class remove container
+
+#class add currency
+  >> dime/s
+    | pron d"aIm/d"aImz
+    | class coin
+  >> dollar bill/s
+    | pron d"O-l3` b"Il/d"O-l3` b"Ilz
+    | class green
+  >> penny/-ies
+    | pron p"E-ni/p"E-niz
+    | class coin
+  >> quarter/s
+    | class coin
+#class remove currency
 
 #class add drug
   >> bath salts/
@@ -528,6 +554,8 @@
   >> shroom/s
   >> smack/
     | pron sm"{k/sm"{k
+  >> vaccine/s
+    | class medical
 #class remove drug
 
 #class add food
@@ -593,6 +621,7 @@
     >> spinach/
       | pron sp"I-nVtS/sp"I-nVtS
       | class green
+    >> turnip/s
   #class remove vegetable
 
   >> almond/s
@@ -601,22 +630,35 @@
     | pron b"I-skVt/b"I-skVts
   >> bread/
     | pron br"Ed/br"Ed
+  >> bun/s
+    | class hairstyle
   >> cabbage/s
     | pron k"{-bIdZ/k"{-bI-dZIz
     | class green
+  >> cheeseburger/s
+    | pron tS"iz-b3`-g3`/tS"iz-b3`-g3`z
+  >> chicken wing/s
+    | pron tS"I-kVn w"IN/tS"I-kVn w"INz
   >> corn/s
     | pron k"Orrn/k"Orrnz
   >> cornflake/s
   >> fudge/
     | pron f"VdZ/f"VdZ
   >> hazelnut/s
+  >> kidney bean/s
   >> marshmallow/s
     | pron m"ArrS-m%E-loU/m"ArrS-m%E-loUz
   >> meatloaf/-ves
+  >> mushroom/s
+    | class fungus
   >> peanut/s
     | pron p"i-n%Vt/p"i-n%Vts
+  >> popsicle/s
+    | class frozen
   >> pretzel/s
     | pron pr"Et-zVl/pr"Et-zVlz
+  >> salad/s
+  >> sugar cube/s
   >> waffle/s
     | pron w"A-fVl/w"A-fVlz
   >> walnut/s
@@ -861,12 +903,60 @@
 #class remove liquid
 
 #class add long
+  #class add body
+    #class add nsfw
+    #class remove nsfw
+
+  #class remove body
+
+  #class add tool
+    #class add drawing
+      #class add writing
+        >> ballpoint pen/s
+          | class pen
+        >> charcoal pencil/s
+          | class pencil
+        >> felt-tip pen/s
+          | class pen
+        >> sharpie/s
+          | class marker
+      #class remove writing
+
+      >> oil pastel/s
+        | class pastel
+      >> paintbrush/es
+        | class brush painting
+    #class remove drawing
+
+    >> blowtorch/es
+    >> bunsen burner/s
+      | pron b"3`-n3`/b"3`-n3`z
+    >> dry\-erase marker/s
+    >> fountain pen/s
+    >> hammer/s
+      | pron h"{-m3`/h"{-m3`z
+    >> jackhammer/s
+      | pron dZ"{k-h%{-m3`/dZ"{k-h%{-m3`z
+    >> quill/s
+      | class sharp
+    >> screwdriver/s
+      | pron skr"u-dr%aI-v3`/skr"u-dr%aI-v3`z
+    >> spoon/s
+      | pron sp"un/sp"unz
+    >> wand/s
+      | pron w"And/w"Andz
+    >> wrench/es
+      | pron r"EntS/r"En-tSIz
+  #class remove tool
+
   #class add weapon
     >> arrow/s
       | pron "E-roU/"E-roUz
       | class tool
     >> baton/s
       | pron b"{-tVn/b{-t"Anz
+    >> bayonet/s
+      | class metal sharp
     >> broomstick/s
       | pron br"um-st%Ik/br"um-st%Iks
     >> dart/s
@@ -876,6 +966,8 @@
       | class tool
     >> harpoon/s
       | pron hArr-p"un/hArr-p"unz
+    >> leather horsewhip/s
+      | class flexible leather tool
     >> pencil/s
       | pron p"En-sVl/p"En-sVlz
       | class tool yellow
@@ -892,13 +984,8 @@
     | pron bV-n"{-nV/bV-n"{-nVz
     | class food fruit yellow
   >> banister/s
-  >> blowtorch/es
-    | class tool
   >> broom/s
     | pron br"um/br"umz
-  >> bunsen burner/s
-    | pron b"3`-n3`/b"3`-n3`z
-    | class tool
   >> candle/s
     | pron k"{n-dVl/k"{n-dVlz
   >> cannon/s
@@ -907,25 +994,27 @@
     | pron tS"eIn/tS"eInz
   >> cigarette/s
     | pron s%I-g3`-"Et/s%I-g3`-"Ets
+  >> clarinet/s
+    | class instrument
   >> crack pipe/s
     | pron kr"{k p"aIp/kr"{k p"aIps
   >> cucumber/s
     | pron kj"u-kVm-b3`/kj"u-kVm-3`z
     | class vegetable
+  >> elephant tusk/s
+    | class hard tusk
   >> extension cord/s
     | pron Ik-st"En-SVn k"Orrd/Ik-st"En-SVn k"Orrdz
-  >> fountain pen/s
-    | class tool
   >> French horn/s
     | class instrument music
-  >> hammer/s
-    | pron h"{-m3`/h"{-m3`z
-    | class tool
-  >> jackhammer/s
-    | pron dZ"{k-h%{-m3`/dZ"{k-h%{-m3`z
-    | class tool
+  >> glowstick/s
+    | class light
+  >> grandfather clock/s
+    | class clock machine
   >> jalapeno/s
     | class green pepper
+  >> kazoo/s
+    | class instrument
   >> knife/--ves
     | pron n"aIf/n"aIvz
   >> lightbulb/s
@@ -937,21 +1026,21 @@
   >> plunger/s
   >> pole/s
     | pron p"oUl/p"oUlz
+  >> ram horn/s
+    | class hard horn
+  >> rhino horn/s
+    | class hard horn
   >> rocket/s
     | pron r"A-kVt/r"A-kVts
   >> ruler/s
     | pron r"u-l3`/r"u-l3`z
   >> sausage/s
     | pron s"O-sIdZ/s"O-sI-dZIz
-  >> screwdriver/s
-    | pron skr"u-dr%aI-v3`/skr"u-dr%aI-v3`z
-    | class tool
   >> silo/s
     | pron s"aI-loU/s"aI-l%oUz
-  >> spoon/s
-    | pron sp"un/sp"unz
-    | class tool
   >> spork/s
+  > spray nozzle
+    | class hole
   >> staple/s
     | pron st"eI-pVl/st"eI-pVlz
   >> toothbrush/es
@@ -963,13 +1052,17 @@
   >> turd/s
   >> umbrella/s
     | pron "Vm-br%E-lV/Vm-br"E-lVz
-  >> wand/s
-    | pron w"And/w"Andz
-    | class tool
-  >> wrench/es
-    | pron r"EntS/r"En-tSIz
-    | class tool
 #class remove long
+
+#class add machine
+  >> copy machine/s
+    | class copying office printing
+  >> gearshift/s
+  >> mouse/----ice
+    | class computer office pointing
+  >> printer/s
+    | class office printing
+#class remove machine
 
 #class add nsfw
   #class add sex
@@ -1061,27 +1154,30 @@
 #class remove nsfw
 
 #class add person
+  #class add adult
+    >> dude/s
+      | pron d"ud/dj"udz
+      | class male
+    >> lady/-ies
+      | pron l"eI-di/l"eI-diz
+      | class female
+    >> man/--en
+      | pron m"{n/m"En
+      | class male
+    >> woman/--en
+      | pron w"U-mVn/w"I-mVn
+      | class female
+  #class remove adult
+
   >> baby/-ies
     | pron b"eI-bi/b"eI-biz
     | class fruit
   >> child/ren
     | pron tS"aIld/tS"Il-drVn
-  >> dude/s
-    | pron d"ud/dj"udz
-    | class adult male
   >> elf/-ves
     | pron "Elf/"Elvz
-  >> lady/-ies
-    | pron l"eI-di/l"eI-diz
-    | class adult female
-  >> man/--en
-    | pron m"{n/m"En
-    | class adult male
   >> teen/s
     | pron t"in/t"inz
-  >> woman/--en
-    | pron w"U-mVn/w"I-mVn
-    | class adult female
 #class remove person
 
 #class add plant
@@ -1094,6 +1190,9 @@
     | class yellow
   >> fern/s
     | pron f"3`n/f"3`nz
+  >> grass/es
+    | pron gr"{s/gr"{-sIz
+    | class green
   >> hedge/s
     | pron h"EdZ/h"E-dZIz
   >> maple tree/s
@@ -1108,6 +1207,7 @@
     | pron st"I-NIN n"E-tVl/st"I-NIN n"E-tVlz
   >> thistle/s
     | pron T"I-sVl/T"I-sVlz
+  >> tuber/s
   >> tulip/s
     | pron t"u-lVp/t"u-lVps
 #class remove plant
@@ -1115,6 +1215,9 @@
 #class add shape
   >> circle/s
     | pron s"3`-kVl/s"3`-kVlz
+  >> globe/s
+    | pron gl"oUb/gl"oUbz
+  >> great-stellated dodecahedron/s
   >> oval/s
   >> square/s
     | pron skw"err/skw"errz
@@ -1140,40 +1243,50 @@
   >> tabletop/s
   >> wall/s
     | pron w"Ol/w"Olz
+  >> wall/s
+    | pron w"Ol/w"Olz
+    | class architecture vertical
   >> window/s
     | pron w"In-doU/w"In-doUz
 #class remove surface
 
 #class add tool
   #class add weapon
-    #class add long
-      >> flamethrower/s
-      >> fork/s
-        | pron f"Orrk/f"Orrks
-      >> machete/s
-        | pron mV-tS"E-t%i/mV-tS"E-t%iz
-      >> pitchfork/s
-        | pron p"ItS-f%Orrk/p"ItS-f%Orrks
-      >> spear/s
-        | pron sp"Irr/sp"Irrz
-      >> sword/s
-        | pron s"Orrd/s"Orrdz
-    #class remove long
-
     >> bomb/s
       | pron b"Om/b"Amz
     >> chainsaw/s
       | pron tS"eIn-s%O/tS"eIn-s%Oz
     >> crosscut saw/s
+    >> flamethrower/s
+      | class long
+    >> fork/s
+      | pron f"Orrk/f"Orrks
+      | class long
     >> lawn mower/s
       | pron l"On m"oU-3`/l"On m"oU-3`z
+    >> machete/s
+      | pron mV-tS"E-t%i/mV-tS"E-t%iz
+      | class long
     >> pickaxe/s
+    >> pitchfork/s
+      | pron p"ItS-f%Orrk/p"ItS-f%Orrks
+      | class long
+    >> spear/s
+      | pron sp"Irr/sp"Irrz
+      | class long
     >> stapler/s
       | pron st"eIp-l3`/st"eIp-l3`z
     >> stun gun/s
       | pron st"Vn g"Vn/st"Vn g"Vnz
+    >> sword/s
+      | pron s"Orrd/s"Orrdz
+      | class long
   #class remove weapon
 
+  >> allen wrench/es
+    | class long
+  >> bicycle pump/s
+    | class long
   >> blender/s
     | pron bl"En-d3`/bl"En-d3`z
   >> camera/s
@@ -1191,6 +1304,10 @@
   >> firecracker/s
     | pron f"aI-3`-kr%{-k3`/f"aI-3`-kr%{-k3`z
   >> hacksaw/s
+  >> hair dryer/---iers
+    | class grooming machine
+  >> hairbrush/es
+    | class grooming
   >> iron maiden/s
     | pron "aI-3`n m"eI-dVn/"aI-3`n m"eI-dVnz
   >> jockstrap/s
@@ -1215,10 +1332,12 @@
   >> rumpus/es
   >> shopping cart/s
     | pron S"A-pIN k"Arrt/S"A-pIN k"Arrts
+  >> sledgehammer/s
   >> squeegee/s
+  >> thermometer/s
+    | class long
   >> vacuum/s
     | pron v"{-kjum/v"{-kjumz
-  >> sledgehammer/s
 #class remove tool
 
 #class add vehicle
@@ -1226,10 +1345,15 @@
     | pron "err-kr%{ft k"E-ri-3`/"err-kr%{ft k"E-ri-3`z
   >> airplane/s
     | pron "err-pl%eIn/"err-pleInz
+  >> articulated bus/es
+    | class articulated bus flexible long
+  >> bicycle/s
   >> blimp/s
     | pron bl"Imp/bl"Imps
   >> boat/s
     | pron b"oUt/b"oUts
+  >> car/s
+    | pron k"Arr/k"Az
   >> fire engine/s
     | class red
   >> hot rod/s
@@ -1257,6 +1381,8 @@
     | pron kl"it/kl"its
   >> dagger/s
     | pron d"{-g3`/d"{-g3`z
+  >> dynamite/s
+    | class bomb explosive long
   >> horsewhip/s
     | class tool
   >> lampstand/s
@@ -1278,16 +1404,22 @@
     | class tool
 #class remove weapon
 
+>> aileron/s
+  | class articulated aviation
 >> anthill/s
   | pron "{nt-h%Il/"{nt-h%Ilz
 >> asymptote/s
   | pron "{-sImp-t%oUt/"{-sImp-t%oUts
+>> bald eagle/s
+  | class bird eagle
 >> banjo/s
   | class instrument music
 >> basket/s
   | pron b"{-skVt/b"{-skVts
 >> battery/-ies
   | pron b"{-t3`-i/b"{-t3`-iz
+>> Bavarian hat/s
+  | class clothing hat
 >> bench/es
   | pron b"EntS/b"En-tSIz
 >> bingo/s
@@ -1295,6 +1427,8 @@
   | class green
 >> book/s
   | pron b"Uk/b"Uks
+>> boxcar/s
+  | class train
 >> bulge/s
   | pron b"VldZ/b"Vl-dZIz
 >> butt joint/s
@@ -1309,9 +1443,6 @@
   | pron k"{n-di k"eIn/k"{n-di k"eInz
 >> canister/s
   | pron k"{-nI-st3`/k"{-nI-st3`z
->> car/s
-  | pron k"Arr/k"Az
-  | class vehicle
 >> carcass/es
   | pron k"Arr-kVs/k"Arr-kV-sIz
 >> card/s
@@ -1321,12 +1452,8 @@
 >> cassette tape/s
 >> cement/
   | pron sI-m"Ent/sI-m"Ent
->> cheeseburger/s
-  | pron tS"iz-b3`-g3`/tS"iz-b3`-g3`z
-  | class food
->> chicken wing/s
-  | pron tS"I-kVn w"IN/tS"I-kVn w"INz
-  | class food
+>> cinder block/s
+  | class hard
 >> clock/s
   | pron kl"Ak/kl"Aks
 >> coaster/s
@@ -1338,71 +1465,69 @@
   | pron k%An-stV-t"u-SVn/k%An-stI-t"u-SVnz
 >> cork/s
   | pron k"Orrk/k"Orrks
+>> county/-ies
+  | class geo
 >> cramp/s
   | pron kr"{mp/kr"{mps
 >> credit card/s
   | pron kr"E-dIt k"Arrd/kr"E-dIt k"Arrdz
 >> cuckoo/s
   | pron k"u-k%u/k"u-kuz
+>> delicacy/-ies
 >> Democrat/s
   | class blue party political
 >> diaper/s
   | pron d"aI-p3`/d"aI-p3`z
 >> dictionary/-ies
   | pron d"Ik-SV-n%E-ri/d"Ik-SV-n%E-riz
->> dime/s
-  | pron d"aIm/d"aImz
-  | class currency coin
->> quarter/s
-  | class currency coin
 >> dingleberry/-ies
+>> diode/s
 >> disco ball/s
   | pron d"I-skoU b"Ol/d"I-skoU b"Olz
 >> dishrag/s
 >> doll/s
   | pron d"Al/d"Alz
->> dollar bill/s
-  | pron d"O-l3` b"Il/d"O-l3` b"Ilz
-  | class currency green
 >> doodle/s
   | pron d"u-dVl/d"u-dVlz
+>> doorknob/s
+  | class household
 >> duct tape/
   | pron d"Vkt t"eIp/d"Vkt t"eIp
->> dynamite/s
-  | class weapon explosive bomb long
 >> earwax/
   | pron "Irr-w%{ks/"Irr-w%{ks
 >> enigma/s
 >> eraser/s
   | pron i-r"eI-s3`/i-r"eI-s3`z
+>> facet/s
 >> fan/s
   | pron f"{n/f"{nz
 >> fart/s
 >> feces/
   | pron f"i-s%iz/f"i-s%iz
+>> fedora/s
+  | class clothing hat
 >> fetus/es
   | pron f"i-tVs/f"i-tV-sIz
+>> fissure/s
+  | class hole
 >> flapjack/s
->> flowerpot/s
-  | class container
 >> fog/s
 >> football/s
   | pron f"Ut-b%Ol/f"Ut-b%Olz
 >> frosting/s
   | pron fr"O-stIN/fr"O-stINz
+>> fulcrum/s
 >> garden/s
   | pron g"Arr-dVn/g"Arr-dVnz
->> gearshift/s
-  | class machine
+>> gas giant/s
+  | class astronomy
 >> ghost/s
   | pron g"oUst/g"oUs
 >> giblet/s
->> globe/s
-  | pron gl"oUb/gl"oUbz
-  | class shape
->> grass/es
-  | pron gr"{s/gr"{-sIz
-  | class green plant
+>> goiter/s
+  | class growth
+>> hematoma/s
+  | class growth
 >> hemorroid/s
 >> hole/s
   | pron h"oUl/h"oUlz
@@ -1442,6 +1567,8 @@
 >> meat/s
   | pron m"it/m"its
   | weight 10
+>> meme/s
+  | class culture dank internet
 >> mirror/s
   | pron m"I-r3`/m"I-r3`z
 >> mohawk/s
@@ -1458,6 +1585,8 @@
   | pron n"3`d/n"3`dz
 >> nickel/s
   | pron n"I-kVl/n"I-kVlz
+>> notebook/s
+  | class paper
 >> ointment/s
 >> papaya/s
   | pron pV-p"aI-V/pV-p"aI-Vz
@@ -1465,9 +1594,6 @@
   | pron pV-d"Es-tri-Vn/pV-d"Es-tri-Vnz
 >> peninsula/s
   | class geographical
->> penny/-ies
-  | pron p"E-ni/p"E-niz
-  | class currency coin
 >> peppermint/s
 >> pizza/s
   | pron p"it-sV/p"it-sVz
@@ -1475,8 +1601,7 @@
   | pron pl"Vg/pl"Vgz
 >> pope/s
   | pron p"oUp/p"oUpz
->> popsicle/s
-  | class food frozen
+>> proxy/-ies
 >> puppet/s
   | pron p"V-pIt/p"V-pIts
 >> pylon/s
@@ -1496,31 +1621,32 @@
   | pron r"IdZ/r"I-dZIz
 >> rock/s
   | pron r"Ak/r"Aks
+  | class natural
 >> rotisserie/s
 >> rubber/s
   | pron r"V-b3`/r"V-b3`z
 >> scab/s
   | pron sk"{b/sk"{bz
 >> scuba/s
->> sharpie/s
-  | class long tool drawing writing marker
 >> shrub/s
   | pron Sr"Vb/Sr"Vbz
 >> shuttlecock/s
 >> snorkel/s
+  | class diving equipment
 >> sofa/s
   | pron s"oU-fV/s"oU-fVz
 >> sponge/s
   | pron sp"VndZ/sp"Vn-dZVz
 >> stone/s
   | pron st"oUn/st"oUnz
+>> stop sign/s
+  | class regulatory sign traffic
 >> swag/
+  | class culture
 >> tampon/s
   | pron t"{m-pAn/t"{m-pAnz
 >> tea bag/s
   | pron t"i b"{g/t"i b"{gz
->> teapot/s
-  | class household container
 >> teddy bear/s
   | pron t"E-di b"err/t"E-di b"errz
 >> tire/s
@@ -1535,139 +1661,18 @@
 >> truth/s
   | pron tr"uT/tr"uTs
   | class abstract
->> tuber/s
-  | class plant
+>> tuba/s
+  | class brass instrument
 >> urinal/s
   | class white
 >> ventricle/s
->> wall/s
-  | pron w"Ol/w"Olz
-  | class surface architecture vertical
 >> wedgie/s
   | class act violent
 >> wig/s
   | pron w"Ig/w"Igz
+  | class artificial hair
 >> wool/
   | pron w"Ul/w"Ul
 >> wrinkle/s
   | pron r"IN-kVl/r"IN-kVlz
 >> zygote/s
->> dry\-erase marker/s
-  | class long tool
->> aileron/s
-  | class aviation articulated
->> kazoo/s
-  | class instrument long
->> clarinet/s
-  | class instrument long
->> tuba/s
-  | class brass instrument
->> pencil case/s
-  | class container
->> turnip/s
-  | class vegetable food
->> fulcrum/s
->> toolbox/es
-  | class container
->> notebook/s
-  | class paper
->> boxcar/s
-  | class train
->> thermometer/s
-  | class tool long
->> goiter/s
-  | class growth
->> bicycle/s
-  | class vehicle
->> bicycle pump/s
-  | class tool long
->> allen wrench/es
-  | class tool long
->> whale/s
-  | class fish animal
->> doorknob/s
-  | class household
->> spray nozzle
-  | class long hole
->> glowstick/s
-  | class long light
->> hairbrush/es
-  | class tool grooming
->> hematoma/s
-  | class growth
->> bayonet/s
-  | class long weapon sharp metal
->> sugar cube/s
-  | class food
->> mushroom/s
-  | class food fungus
->> salad/s
-  | class food
->> quill/s
-  | class long sharp tool
->> county/-ies
-  | class geo
->> kidney bean/s
-  | class food
->> gas giant/s
-  | class astronomy
->> proxy/-ies
->> fissure/s
-  | class hole
->> bun/s
-  | class food hairstyle
->> hair dryer/---iers
-  | class tool grooming machine
->> delicacy/-ies
->> facet/s
->> diode/s
->> great-stellated dodecahedron/s
-  | class shape
->> leather horsewhip/s
-  | class long weapon flexible leather tool
->> felt-tip pen/s
-  | class long writing drawing tool pen
->> ballpoint pen/s
-  | class long writing drawing tool pen
->> charcoal pencil/s
-  | class long writing drawing tool pencil
->> oil pastel/s
-  | class long drawing tool pastel
->> paintbrush/es
-  | class long drawing painting tool brush
->> meme/s
-  | class dank internet culture
->> bald eagle/s
-  | class bird eagle
->> rhino horn/s
-  | class horn long hard
->> elephant tusk/s
-  | class tusk long hard
->> ram horn/s
-  | class horn long hard
->> mountain goat/s
-  | class animal goat
->> articulated bus/es
-  | class vehicle bus long flexible articulated
->> Bavarian hat/s
-  | class clothing hat
->> fedora/s
-  | class clothing hat
->> stop sign/s
-  | class traffic sign regulatory
->> fanny pack/s
-  | class accessory container wearable
->> cinder block/s
-  | class hard
->> vaccine/s
-  | class medical drug
->> printer/s
-  | class office machine printing
->> copy machine/s
-  | class office machine printing copying
-> mouse/mice
-  | class animal rodent
-> mouse/mice
-  | class office machine computer pointing
->> grandfather clock/s
-  | class clock long machine
