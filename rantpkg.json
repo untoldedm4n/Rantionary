@@ -5,5 +5,5 @@
   "tags": ["rantionary", "official", "dictionary"],
   "authors": ["Nicholas Fleck"],
   "description": "Rant's official dictionary.",
-  "out": "/build"
+  "out": "build"
 }
