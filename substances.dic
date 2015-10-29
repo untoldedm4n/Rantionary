@@ -46,6 +46,7 @@
   > molten iron
     | pron m"oUl-tVn "aI-3`n
   > mud
+    | pron m"Vd
   > mustard
     | pron m"V-st3`d
   > oil
@@ -81,6 +82,7 @@
 #class remove liquid
 
 > antimatter
+  | pron "{n-tI-m{-t3`
 > corn
   | pron k"Orrn
 > dark matter
