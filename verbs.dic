@@ -4,450 +4,468 @@
 
 #class add intransitive
   #class add eat
-    > chew/chewing/chewed/chews/chewer/chewed/chewing/chewings
+    >> chew/ing/ed/s/er/ed/ing/ings
       | class transitive
-    > eat/eating/ate/eats/eater/eaten/eating/eatings
+    >> eat/ing/|-;e/s/er/en/ing/ings
       | class transitive
-    > lick/licking/licked/licks/licker/licked/licking/lickings
-    > masticate/masticating/masticated/masticates/masticater/masticated/mastication/mastications
+    >> lick/ing/ed/s/er/ed/ing/ings
+    >> masticate/-ing/d/s/r/d/-ion/-ions
       | class transitive
-    > slurp/slurping/slurped/slurps/slurper/slurped/slurping/slurpings
-    > snort/snorting/snorted/snorts/snorter/snorted/snorting/snortings
-    > snuffle/snuffling/snuffled/snuffles/snuffler/snuffled/snuffling/snufflings
+    >> slurp/ing/ed/s/er/ed/ing/ings
+    >> snort/ing/ed/s/er/ed/ing/ings
+    >> snuffle/-ing/d/s/r/d/-ing/-ings
   #class remove eat
 
   #class add pose
-    > crouch/crouching/crouched/crouches/croucher/crouched/crouching/crouchings
-    > lay/laying/laid/lays/layer/laid/laying/layings
-    > sit/sitting/sat/sits/sitter/sat/sitting/sittings
-    > squat/squatting/squatted/squats/squatter/squatted/squatting/squattings
-    > stand/standing/stood/stands/stander/stood/standing/standings
+    >> crouch/ing/ed/es/er/ed/ing/ings
+    >> lay/ing/-id/s/er/-id/ing/ings
+    >> sit/ting/--at/s/ter/--at/ting/tings
+    >> squat/ting/ted/s/ter/ted/ting/tings
+    >> stand/ing/---ood/s/er/---ood/ing/ings
   #class remove pose
 
-  > align/aligning/alignd/aligns/aligner/alignd/alignment/alignments
+  >> align/ing/d/s/er/d/ment/ments
     | class arrange axial dative transitive
-  > defecate/defecating/defecated/defecates/defecator/defecated/defecation/defecations
+  >> defecate/-ing/d/s/-or/d/-ion/-ions
     | class liquid nsfw transitive
-  > ejaculate/ejaculating/ejaculated/ejaculates/ejaculator/ejaculated/ejaculation/ejaculations
+  >> ejaculate/-ing/d/s/-or/d/-ion/-ions
     | class liquid nsfw sex
-  > fantasize/fantasizing/fantasized/fantasizes/fantasizeer/fantasized/fantasizey/fantasizies
+  >> fantasize/-ing/d/s/er/d/y/-ies
     | class dative
-  > fume/fuming/fumed/fumes/fumer/fumed/fuming/fumings
-  > gyrate/gyrating/gyrated/gyrates/gyrator/gyrated/gyration/gyrations
+  >> fume/-ing/d/s/r/d/-ing/-ings
+  >> gyrate/-ing/d/s/-or/d/-ion/-ions
     | class motion move nsfw
-  > lather/lathering/lathered/lathers/latherer/lathered/lathering/latherings
-  > masturbate/masturbating/masturbated/masturbates/masturbator/masturbated/masturbation/masturbations
+  >> lather/ing/ed/s/er/ed/ing/ings
+  >> masturbate/-ing/d/s/-or/d/-ion/-ions
     | class nsfw sex
-  > pray/praying/prayed/prays/prayer/prayed/prayer/prayers
-  > twerk/twerking/twerked/twerks/twerker/twerked/twerking/twerkings
+  >> pray/ing/ed/s/er/ed/er/ers
+  >> twerk/ing/ed/s/er/ed/ing/ings
     | class motion nsfw
-  > urinate/urinating/urinated/urinates/urinator/urinated/urination/urinations
+  >> urinate/-ing/d/s/-or/d/-ion/-ions
     | class liquid nsfw
 #class remove intransitive
 
 #class add motion
   #class add insert
-    > cram/cramming/crammed/crams/crammer/crammed/cramming/crammings
-    > inject/injecting/injected/injects/injector/injected/injection/injections
-    > poke/poking/poked/pokes/poker/poked/poking/pokings
-    > prod/prodding/prodded/prods/prodder/prodded/prodding/proddings
-    > screw/screwing/screwed/screws/screwer/screwed/screwing/screwings
-    > stick/sticking/stuck/sticks/sticker/stuck/sticking/stickings
-    > wedge/wedging/wedged/wedges/wedger/wedged/wedging/wedgings
+    >> cram/ming/med/s/mer/med/ming/mings
+    >> inject/ing/ed/s/or/ed/ion/ions
+    >> poke/-ing/d/s/r/d/-ing/-ings
+    >> prod/ding/ded/s/der/ded/ding/dings
+    >> screw/ing/ed/s/er/ed/ing/ings
+    >> stick/ing/---uck/s/er/---uck/ing/ings
+    >> wedge/-ing/d/s/r/d/-ing/-ings
   #class remove insert
 
   #class add intransitive
-    > square dance/square dancing/square danced/square dances/square dancer/square danced/square dancing/square dances
+    >> square dance/-ing/d/s/r/d/-ing/s
       | class dance
-    > tremble/trembling/trembled/trembles/trembler/trembled/trembling/tremblings
-    > undulate/undulating/undulated/undulates/undulater/undulated/undulation/undulations
+    >> tremble/-ing/d/s/r/d/-ing/-ings
+    >> undulate/-ing/d/s/r/d/-ion/-ions
       | class smooth transitive wave
-    > waddle/waddling/waddled/woddles/woddler/waddled/waddling/waddlings
+    >> waddle/-ing/d/-----oddles/-----oddler/d/-ing/-ings
   #class remove intransitive
 
-  > bang/banging/banged/bangs/banger/banged/banging/bangings
-  > belly-flop/belly-flopping/belly-flopped/belly-flops/belly-flopper/belly-flopped/belly-flopping/belly-floppings
+  >> bang/ing/ed/s/er/ed/ing/ings
+  >> belly-flop/ping/ped/s/per/ped/ping/pings
     | class transitive violent
-  > bind/binding/bound/binds/binder/bound/binding/bindings
-  > blow/blowing/blew/blows/blower/blown/blowing/blowings
-  > crank/cranking/cranked/cranks/cranker/cranked/cranking/cranks
-  > crunch/crunching/crunched/crunches/cruncher/crunched/crunching/crunches
-  > eject/ejecting/ejected/ejects/ejector/ejected/ejection/ejections
-  > fly/flying/flew/flies/flier/flown/flight/flights
-  > force/forcing/forced/forces/forcer/forced/forcing/forces
-  > hack/hacking/hacked/hacks/hacker/hacked/hacking/hacks
-  > hurl/hurling/hurled/hurls/hurler/hurled/hurling/hurlings
-  > kick/kicking/kicked/kicks/kicker/kicked/kicking/kicks
-  > knead/kneading/kneaded/kneads/kneader/kneaded/kneading/kneadings
-  > move/moving/moved/moves/mover/moved/moving/motions
-  > palpitate/palpitating/palpitated/palpitates/palpitater/palpitated/palpitation/palpitations
-  > press/pressing/pressed/presses/presser/pressed/pressing/presses
-  > pump/pumping/pumped/pumps/pumper/pumped/pumping/pumps
-  > rip/ripping/ripped/rips/ripper/ripped/ripping/rippings
-  > serve/serving/served/serves/server/served/serving/servings
-  > shake/shaking/shook/shakes/shaker/shaken/shaking/shakings
-  > shoot/shooting/shot/shoots/shooter/shot/shooting/shootings
-  > slam/slamming/slammed/slams/slammer/slammed/slamming/slammings
-  > slip/slipping/slipped/slips/slipper/slipped/slipping/slippings
-  > smack/smacking/smacked/smacks/smacker/smacked/smacking/smackings
-  > squish/squishing/squished/squishes/squisher/squished/squishing/squishings
-  > staple/stapling/stapled/staples/stapler/stapled/stapling/staplings
-  > stomp/stomping/stomped/stomps/stomper/stomped/stomping/stompings
-  > throw/throwing/threw/throws/thrower/thrown/throwing/throwings
-  > twang/twanging/twanged/twangs/twanger/twanged/twanging/twangings
-  > twist/twisting/twisted/twists/twister/twisted/twisting/twists
-  > wiggle/wiggling/wiggled/wiggles/wiggler/wiggled/wiggling/wigglings
+  >> bind/ing/---ound/s/er/---ound/ing/ings
+  >> blow/ing/--ew/s/er/n/ing/ings
+  >> crank/ing/ed/s/er/ed/ing/s
+  >> crunch/ing/ed/es/er/ed/ing/es
+  >> eject/ing/ed/s/or/ed/ion/ions
+  >> fly/ing/-ew/-ies/-ier/-own/-ight/-ights
+  >> force/-ing/d/s/r/d/-ing/s
+  >> hack/ing/ed/s/er/ed/ing/s
+  >> hurl/ing/ed/s/er/ed/ing/ings
+  >> kick/ing/ed/s/er/ed/ing/s
+  >> knead/ing/ed/s/er/ed/ing/ings
+  >> move/-ing/d/s/r/d/-ing/--tions
+  >> palpitate/-ing/d/s/r/d/-ion/-ions
+  >> press/ing/ed/es/er/ed/ing/es
+  >> pump/ing/ed/s/er/ed/ing/s
+  >> rip/ping/ped/s/per/ped/ping/pings
+  >> serve/-ing/d/s/r/d/-ing/-ings
+  >> shake/-ing/---ook/s/r/n/-ing/-ings
+  >> shoot/ing/--t/s/er/--t/ing/ings
+  >> slam/ming/med/s/mer/med/ming/mings
+  >> slip/ping/ped/s/per/ped/ping/pings
+  >> smack/ing/ed/s/er/ed/ing/ings
+  >> squish/ing/ed/es/er/ed/ing/ings
+  >> staple/-ing/d/s/r/d/-ing/-ings
+  >> stomp/ing/ed/s/er/ed/ing/ings
+  >> throw/ing/--ew/s/er/n/ing/ings
+  >> twang/ing/ed/s/er/ed/ing/ings
+  >> twist/ing/ed/s/er/ed/ing/s
+  >> wiggle/-ing/d/s/r/d/-ing/-ings
 #class remove motion
 
 #class add political
-  > amend/amending/amended/amends/amender/amended/amendment/amendments
-  > elect/electing/elected/elects/electer/elected/election/elections
-  > impeach/impeaching/impeached/impeaches/impeacher/impeached/impeachment/impeachments
-  > inaugurate/inaugurating/inaugurated/inaugurates/inaugurater/inaugurated/inauguration/inaugurations
-  > ratify/ratifying/ratified/ratifies/ratifier/ratified/ratification/ratifications
-  > veto/vetoing/vetoed/vetoes/vetoer/vetoed/vetoing/vetoes
+  >> amend/ing/ed/s/er/ed/ment/ments
+  >> elect/ing/ed/s/er/ed/ion/ions
+  >> impeach/ing/ed/es/er/ed/ment/ments
+  >> inaugurate/-ing/d/s/r/d/-ion/-ions
+  >> ratify/ing/-ied/-ies/-ier/-ied/-ication/-ications
+  >> veto/ing/ed/es/er/ed/ing/es
 #class remove political
 
 #class add transitive
   #class add insert
-    > feed/feeding/fed/feeds/feeder/fed/feeding/feedings
-    > plunge/plunging/plunged/plunges/plunger/plunged/plunging/plungings
-    > push/pushing/pushed/pushes/pusher/pushed/pushing/pushings
+    >> feed/ing/--d/s/er/--d/ing/ings
+    >> plunge/-ing/d/s/r/d/-ing/-ings
+    >> push/ing/ed/es/er/ed/ing/ings
       | class move
-    > ram/ramming/rammed/rams/rammer/rammed/ramming/rammings
+    >> ram/ming/med/s/mer/med/ming/mings
   #class remove insert
 
   #class add intransitive
-    > align/aligning/aligned/aligns/aligner/aligned/aligning/alignings
-    > articulate/articulating/articulated/articulates/articulator/articulated/articulation/articulations
+    >> align/ing/ed/s/er/ed/ing/ings
+    >> articulate/-ing/d/s/-or/d/-ion/-ions
       | class dative
-    > associate/associating/associated/associates/associator/associated/association/associations
+    >> associate/-ing/d/s/-or/d/-ion/-ions
       | class dative
-    > bake/baking/baked/bakes/baker/baked/baking/bakings
-    > bathe/bathing/bathed/bathes/bather/bathed/bathing/bathings
-    > boil/boiling/boiled/boils/boiler/boiled/boiling/boilings
-    > breastfeed/breastfeeding/breastfed/breastfeeds/breastfeeder/breastfed/breastfeeding
-    > burn/burning/burned/burns/burner/burnt/burning/burnings
-    > cook/cooking/cooked/cooks/cooker/cooked/cooking/cookings
-    > cuddle/cuddling/cuddled/cuddles/cuddler/cuddled/cuddling/cuddlings
-    > cut/cutting/cut/cuts/cutter/cut/cutting/cuttings
-    > dig/digging/dug/digs/digger/dug/digging/diggings
-    > fiddle/fiddling/fiddled/fiddles/fiddler/fiddled/fiddling/fiddlings
-    > flatten/flattening/flattened/flattens/flattener/flattened/flattening/flattenings
-    > flick/flicking/flicked/flicks/flicker/flicked/flicking/flickings
-    > floss/flossing/flossed/flosses/flosser/flossed/flossing/flossings
+    >> bake/-ing/d/s/r/d/-ing/-ings
+    >> bathe/-ing/d/s/r/d/-ing/-ings
+    >> boil/ing/ed/s/er/ed/ing/ings
+    >> breastfeed/ing/--d/s/er/--d/ing
+    >> burn/ing/ed/s/er/t/ing/ings
+    >> cook/ing/ed/s/er/ed/ing/ings
+    >> cuddle/-ing/d/s/r/d/-ing/-ings
+    >> cut/ting//s/ter//ting/tings
+    >> dig/ging/--ug/s/ger/--ug/ging/gings
+    >> fiddle/-ing/d/s/r/d/-ing/-ings
+    >> flatten/ing/ed/s/er/ed/ing/ings
+    >> flick/ing/ed/s/er/ed/ing/ings
+    >> floss/ing/ed/es/er/ed/ing/ings
       | class dental hygiene
-    > freeze/freezing/froze/freezes/freezer/frozen/freezing/freezings
-    > hiccup/hiccuping/hiccuped/hiccups/hiccuper/hiccuped/hiccuping/hiccupings
-    > jerk/jerking/jerked/jerks/jerker/jerked/jerking/jerkings
-    > kiss/kissing/kissed/kisses/kisser/kissed/kissing/kissings
-    > moan/moaning/moaned/moans/moaner/moaned/moaning/moanings
-    > plaster/plastering/plastered/plasters/plasterer/plastered/plastering/plasterimgs
-    > pull/pulling/pulled/pulls/puller/pulled/pulling/pullings
-    > rattle/rattling/rattled/rattles/rattler/rattled/rattling/rattlings
-    > roll/rolling/rolled/rolls/roller/rolled/rolling/rollings
-    > rot/rotting/rotted/rots/rotter/rotten/rotting/rottings
-    > rustle/rustling/rustled/rustles/rustler/rustled/rustling/rustlings
-    > scorch/scorching/scorched/scorches/scorcher/scorched/scorching/scorchings
-    > scrub/scrubbing/scrubbed/scrubs/scrubber/scrubbed/scrubbing/scrubbings
-    > sculpt/sculpting/sculpted/sculpts/sculptor/sculpted/sculpture/sculptures
-    > shave/shaving/shaved/shaves/shaver/shaved/shaving/shavings
-    > smoke/smoking/smoked/smokes/smoker/smoked/smoking/smokings
-    > sniff/sniffing/sniffed/sniffs/sniffer/sniffed/sniffing/sniffings
+    >> freeze/-ing/----oze/s/r/----ozen/-ing/-ings
+    >> hiccup/ing/ed/s/er/ed/ing/ings
+    >> jerk/ing/ed/s/er/ed/ing/ings
+    >> kiss/ing/ed/es/er/ed/ing/ings
+    >> moan/ing/ed/s/er/ed/ing/ings
+    >> plaster/ing/ed/s/er/ed/ing/imgs
+    >> pull/ing/ed/s/er/ed/ing/ings
+    >> rattle/-ing/d/s/r/d/-ing/-ings
+    >> roll/ing/ed/s/er/ed/ing/ings
+    >> rot/ting/ted/s/ter/ten/ting/tings
+    >> rustle/-ing/d/s/r/d/-ing/-ings
+    >> scorch/ing/ed/es/er/ed/ing/ings
+    >> scrub/bing/bed/s/ber/bed/bing/bings
+    >> sculpt/ing/ed/s/or/ed/ure/ures
+    >> shave/-ing/d/s/r/d/-ing/-ings
+    >> smoke/-ing/d/s/r/d/-ing/-ings
+    >> sniff/ing/ed/s/er/ed/ing/ings
       | class eat
-    > snuggle/snuggling/snuggled/snuggles/snuggler/snuggled/snuggling/snugglings
-    > soak/soaking/soaked/soaks/soaker/soaked/soaking/soakings
-    > solidify/solidifying/solidified/solidifies/solidifier/solidified/solidification/solidifications
-    > strain/straining/strained/strains/strainer/strained/straining/strainings
-    > swallow/swallowing/swallowed/swallows/swallower/swallowed/swallowing/swallowings
-    > tinkle/tinkling/tinkled/tinkles/tinkler/tinkled/tinkling/tinklings
-    > undress/undressing/undressed/undresss/undresser/undressed/undressing/undressings
-    > vibrate/vibrating/vibrated/vibrates/vibrator/vibrated/vibration/vibrations
-    > waste/wasting/wasted/wastes/waster/wasted/wasting/wastings
-    > yank/yanking/yanked/yanks/yanker/yanked/yanking/yankings
+    >> snuggle/-ing/d/s/r/d/-ing/-ings
+    >> soak/ing/ed/s/er/ed/ing/ings
+    >> solidify/ing/-ied/-ies/-ier/-ied/-ication/-ications
+    >> strain/ing/ed/s/er/ed/ing/ings
+    >> swallow/ing/ed/s/er/ed/ing/ings
+    >> tinkle/-ing/d/s/r/d/-ing/-ings
+    >> undress/ing/ed/s/er/ed/ing/ings
+    >> vibrate/-ing/d/s/-or/d/-ion/-ions
+    >> waste/-ing/d/s/r/d/-ing/-ings
+    >> yank/ing/ed/s/er/ed/ing/ings
   #class remove intransitive
 
   #class add legal
-    > convict/convicting/convicted/convicts/convicter/convicted/conviction/convictions
-    > legalize/legalizing/legalized/legalizes/legalizer/legalized/legalization/legalizations
-    > prosecute/prosecuting/prosecuted/prosecutes/prosecuter/prosecuted/prosecution/prosecutions
-    > sue/suing/sued/sues/suer/sued/suing/suings
+    >> convict/ing/ed/s/er/ed/ion/ions
+    >> legalize/-ing/d/s/r/d/-ation/-ations
+    >> prosecute/-ing/d/s/r/d/-ion/-ions
+    >> sue/-ing/d/s/r/d/-ing/-ings
   #class remove legal
 
   #class add liquid
-    > drain/draining/drained/drains/drainer/drained/draining/drainings
+    >> drain/ing/ed/s/er/ed/ing/ings
       | class intransitive
-    > drip/dripping/dripped/drips/dripper/dripped/dripping/drippings
+    >> drip/ping/ped/s/per/ped/ping/pings
       | class intransitive
-    > jet-spray/jet-spraying/jet-sprayed/jet-sprays/jet-sprayer/jet-sprayed/jet-spraying/jet-sprayings
-    > paint/painting/painted/paints/painter/painted/painting/paintings
+    >> jet-spray/ing/ed/s/er/ed/ing/ings
+    >> paint/ing/ed/s/er/ed/ing/ings
       | class intransitive
-    > piss/pissing/pissed/pisses/pisser/pissed/pissing/pissings
+    >> piss/ing/ed/es/er/ed/ing/ings
       | class intransitive
-    > pour/pouring/poured/pours/pourer/poured/pouring/pourings
-    > shower/showering/showered/showers/showerer/showered/showering/showerings
-    > smear/smearing/smeared/smears/smearer/smeared/smearing/smearings
-    > splash/splashing/splashed/splashes/splasher/splashed/splashing/splashings
+    >> pour/ing/ed/s/er/ed/ing/ings
+    >> shower/ing/ed/s/er/ed/ing/ings
+    >> smear/ing/ed/s/er/ed/ing/ings
+    >> splash/ing/ed/es/er/ed/ing/ings
       | class intransitive
-    > splatter/splattering/splattered/splatters/splatterer/splattered/splattering/splatterings
-    > spray/spraying/sprayed/sprays/sprayer/sprayed/spraying/sprayings
-    > sprinkle/sprinkling/sprinkled/sprinkles/sprinkler/sprinkled/sprinkling/sprinklings
+    >> splatter/ing/ed/s/er/ed/ing/ings
+    >> spray/ing/ed/s/er/ed/ing/ings
+    >> sprinkle/-ing/d/s/r/d/-ing/-ings
       | class intransitive
-    > spurt/spurting/spurted/spurts/spurter/spurted/spurting/spurtings
+    >> spurt/ing/ed/s/er/ed/ing/ings
       | class intransitive
-    > sputter/sputtering/sputtered/sputters/sputterer/sputtered/sputtering/sputterings
+    >> sputter/ing/ed/s/er/ed/ing/ings
       | class intransitive
-    > squirt/squirting/squirted/squirts/squirter/squirted/squirting/squirtings
+    >> squirt/ing/ed/s/er/ed/ing/ings
       | class intransitive
   #class remove liquid
 
   #class add violent
-    > amputate/amputating/amputated/amputates/amputator/amputated/amputation/amputations
-    > annihilate/annihilating/annihilated/annihilates/annihilator/annihilated/annihilation/annihilations
+    >> amputate/-ing/d/s/-or/d/-ion/-ions
+    >> annihilate/-ing/d/s/-or/d/-ion/-ions
       | class destructive permanent
-    > assault/assaulting/assaulted/assaults/assaulter/assaulted/assault/assaults
-    > attack/attacking/attacked/attacks/attacker/attacked/attack/attacks
-    > behead/beheading/beheaded/beheads/beheader/beheaded/beheading/beheadings
-    > bite/biting/bit/bites/biter/bitten/biting/bitings
-    > bludgeon/bludgeoning/bludgeoned/bludgeons/bludgeoner/bludgeoned/bludgeoning/bludgeonings
-    > cremate/cremating/cremated/cremates/cremater/cremated/cremation/cremations
-    > cripple/crippling/crippled/cripples/crippler/crippled/crippling/cripplings
-    > dangle/dangling/dangled/dangles/dangler/dangled/dangling/danglings
-    > decapitate/decapitating/decapitated/decapitates/decapitater/decapitated/decapitation/decapitations
-    > dissect/dissecting/dissected/dissects/dissector/dissected/dissection/dissections
-    > dominate/dominating/dominated/dominates/dominator/dominated/domination/dominations
-    > electrocute/electrocuting/electrocuted/electrocutes/electrocuter/electrocuted/electrocution/electrocutions
-    > explode/exploding/exploded/explodes/exploder/exploded/explosion/explosions
-    > fart/farting/farted/farts/farter/farted/farting/fartings
-    > gouge/gouging/gouged/gouges/gouger/gouged/gouging/gougings
-    > grab/grabbing/grabbed/grabs/grabber/grabbed/grabbing/grabbings
-    > hammer/hammering/hammered/hammers/hammerer/hammered/hammering/hammerings
-    > hang/hanging/hung/hangs/hanger/hanged/hanging/hangings
-    > harass/harassing/harassed/harasses/harasser/harassed/harassment/harassments
-    > headbutt/headbutting/headbutted/headbutts/headbutter/headbutted/headbutting/headbuttings
-    > impale/impaling/impaled/impales/impaler/impaled/impalement/impalements
-    > implode/imploding/imploded/implodes/imploder/imploded/implosion/implosions
-    > injure/injuring/injured/injures/injurer/injured/injury/injuries
-    > kidnap/kidnapping/kidnapped/kidnaps/kidnapper/kidnapped/kidnapping/kidnappings
-    > liquefy/liquefying/liquefied/liquefies/liquefier/liquefied/liquefication/liquefications
-    > maim/maiming/maimed/maims/maimer/maimed/maiming/maimings
-    > mangle/mangling/mangled/mangles/mangler/mangled/mangling/manglings
-    > manhandle/manhandling/manhandled/manhandles/manhandler/manhandled/manhandling/manhandlings
-    > maul/mauling/mauled/mauls/mauler/mauled/mauling/maulings
-    > mutilate/mutilating/mutilated/mutilates/mutilater/mutilated/mutilation/mutilations
-    > nab/nabbing/nabbed/nabs/nabber/nabbed/nabbing/nabbings
-    > nail/nailing/nailed/nails/nailer/nailed/nailing/nailings
+    >> assault/ing/ed/s/er/ed//s
+    >> attack/ing/ed/s/er/ed//s
+    >> behead/ing/ed/s/er/ed/ing/ings
+    >> bite/-ing/-/s/r/-ten/-ing/-ings
+    >> bludgeon/ing/ed/s/er/ed/ing/ings
+    >> chomp/ing/ed/s/er/ed/ing/ings
+      | class bite eat
+    >> cremate/-ing/d/s/r/d/-ion/-ions
+    >> cripple/-ing/d/s/r/d/-ing/-ings
+    >> dangle/-ing/d/s/r/d/-ing/-ings
+    >> decapitate/-ing/d/s/r/d/-ion/-ions
+    >> dissect/ing/ed/s/or/ed/ion/ions
+    >> dominate/-ing/d/s/-or/d/-ion/-ions
+    >> electrocute/-ing/d/s/r/d/-ion/-ions
+    >> explode/-ing/d/s/r/d/--sion/--sions
+    >> fart/ing/ed/s/er/ed/ing/ings
+    >> fistfight/ing/----ought/s/er/----ought/ing/ings
+    >> gouge/-ing/d/s/r/d/-ing/-ings
+    >> grab/bing/bed/s/ber/bed/bing/bings
+    >> hammer/ing/ed/s/er/ed/ing/ings
+    >> hang/ing/---ung/s/er/ed/ing/ings
+    >> harass/ing/ed/es/er/ed/ment/ments
+    >> headbutt/ing/ed/s/er/ed/ing/ings
+    >> impale/-ing/d/s/r/d/ment/ments
+    >> implode/-ing/d/s/r/d/--sion/--sions
+    >> injure/-ing/d/s/r/d/-y/-ies
+    >> kidnap/ping/ped/s/per/ped/ping/pings
+    >> liquefy/ing/-ied/-ies/-ier/-ied/-ication/-ications
+    >> maim/ing/ed/s/er/ed/ing/ings
+    >> mangle/-ing/d/s/r/d/-ing/-ings
+    >> manhandle/-ing/d/s/r/d/-ing/-ings
+    >> maul/ing/ed/s/er/ed/ing/ings
+    >> mutilate/-ing/d/s/r/d/-ion/-ions
+    >> nab/bing/bed/s/ber/bed/bing/bings
+    >> nail/ing/ed/s/er/ed/ing/ings
       | class insert
-    > nip/nipping/nipped/nips/nipper/nipped/nipping/nippings
+    >> nip/ping/ped/s/per/ped/ping/pings
       | class eat
-    > pierce/piercing/pierced/pierces/piercer/pierced/piercing/piercings
-    > pinch/pinching/pinched/pinches/pincher/pinched/pinching/pinchings
-    > pluck/plucking/plucked/plucks/plucker/plucked/plucking/pluckings
-    > punch/punching/punched/punches/puncher/punched/punching/punchings
-    > rob/robbing/robbed/robs/robber/robbed/robbery/robberies
-    > scratch/scratching/scratched/scratches/scratcher/scratched/scratching/scratchings
-    > shatter/shattering/shattered/shatters/shatterer/shattered/shattering/shatterings
-    > shove/shoving/shoved/shoves/shover/shoved/shoving/shovings
-    > shred/shredding/shredded/shreds/shredder/shredded/shredding/shreddings
-    > skewer/skewering/skewered/skewers/skewerer/skewered/skewering/skewerings
-    > slap/slapping/slapped/slaps/slapper/slapped/slapping/slappings
-    > slash/slashing/slashed/slashes/slasher/slashed/slashing/slashings
-    > slay/slaying/slayed/slays/slayer/slain/slaying/slayings
+    >> pepper/ing/ed/s/er/ed/ing/ings
+    >> pierce/-ing/d/s/r/d/-ing/-ings
+    >> pinch/ing/ed/es/er/ed/ing/ings
+    >> pluck/ing/ed/s/er/ed/ing/ings
+    >> punch/ing/ed/es/er/ed/ing/ings
+    >> rob/bing/bed/s/ber/bed/bery/beries
+    >> scratch/ing/ed/es/er/ed/ing/ings
+    >> shatter/ing/ed/s/er/ed/ing/ings
+    >> shove/-ing/d/s/r/d/-ing/-ings
+    >> shred/ding/ded/s/der/ded/ding/dings
+    >> skewer/ing/ed/s/er/ed/ing/ings
+    >> slap/ping/ped/s/per/ped/ping/pings
+    >> slash/ing/ed/es/er/ed/ing/ings
+    >> slay/ing/ed/s/er/-in/ing/ings
       | class permanent
-    > snip/snipping/snipped/snips/snipper/snipped/snipping/snippings
-    > spank/spanking/spanked/spanks/spanker/spanked/spanking/spankings
-    > stab/stabbing/stabbed/stabs/stabber/stabbed/stabbing/stabbings
-    > strangle/strangling/strangled/strangles/strangler/strangled/strangulation/strangulations
-    > throttle/throttling/throttled/throttles/throttler/throttled/throttling/throttlings
-    > tickle/tickling/tickled/tickles/tickler/tickled/tickling/ticklings
-    > vaporize/vaporizing/vaporized/vaporizes/vaporizer/vaporized/vaporization/vaporizations
-    > vomit/vomiting/vomited/vomits/vomiter/vomited/vomiting/vomitings
-    > whip/whipping/whipped/whips/whipper/whipped/whipping/whippings
+    >> snip/ping/ped/s/per/ped/ping/pings
+    >> spank/ing/ed/s/er/ed/ing/ings
+    >> stab/bing/bed/s/ber/bed/bing/bings
+    >> strangle/-ing/d/s/r/d/--ulation/--ulations
+    >> throttle/-ing/d/s/r/d/-ing/-ings
+    >> tickle/-ing/d/s/r/d/-ing/-ings
+    >> vaporize/-ing/d/s/r/d/-ation/-ations
+    >> vomit/ing/ed/s/er/ed/ing/ings
+    >> whip/ping/ped/s/per/ped/ping/pings
   #class remove violent
 
-  > abolish/abolishing/abolished/abolishes/abolisher/abolished/abolishment/abolishments
-  > appreciate/appreciating/appreciated/appreciates/appreciater/appreciated/appreciation/appreciations
+  >> abolish/ing/ed/es/er/ed/ment/ments
+  >> appreciate/-ing/d/s/r/d/-ion/-ions
     | class human like
-  > apprehend/apprehending/apprehended/apprehends/apprehender/apprehended/apprehension/apprehensions
-  > articulate/articulating/articulated/articulates/articulator/articulated/articulation/articulations
-  > authenticate/authenticating/authenticated/authenticates/authenticator/authenticated/authentication/authentications
-  > barbeque/barbequing/barbequed/barbeques/barbequer/barbequed/barbequing/barbequings
-  > blast/blasting/blasted/blasts/blaster/blasted/blasting/blastings
-  > bless/blessing/blessed/blesses/blesser/blessed/blessing/blessings
-  > caress/caressing/caressed/caresses/caresser/caressed/caressing/caressings
-  > chop/chopping/chopped/chops/chopper/chopped/chopping/choppings
-  > clean/cleaning/cleaned/cleans/cleaner/cleaned/cleaning/cleanings
-  > click/clicking/clicked/clicks/clicker/clicked/clicking/clickings
-  > clip/clipping/clipped/clips/clipper/clipped/clipping/clippings
-  > commandeer/commandeering/commandeered/commandeers/commandeerer/commandeered/commandeering/commandeerings
-  > crumple/crumpling/crumpled/crumples/crumpler/crumpled/crumpling/crumplings
-  > crush/crushing/crushed/crushes/crusher/crushed/crushing/crushings
-  > cultivate/cultivating/cultivated/cultivates/cultivater/cultivated/cultivation/cultivations
-  > customize/customizing/customized/customizes/customizer/customized/customization/customizations
-  > deep-fry/deep-frying/deep-fried/deep-fries/deep-frier/deep-fried/deep-frying/deep-fryings
-  > defy/defying/defied/defies/defier/defied/defiance/defiances
+  >> apprehend/ing/ed/s/er/ed/-sion/-sions
+  >> articulate/-ing/d/s/-or/d/-ion/-ions
+  >> authenticate/-ing/d/s/-or/d/-ion/-ions
+  >> barbeque/-ing/d/s/r/d/-ing/-ings
+  >> blast/ing/ed/s/er/ed/ing/ings
+  >> bless/ing/ed/es/er/ed/ing/ings
+  >> caress/ing/ed/es/er/ed/ing/ings
+  >> chop/ping/ped/s/per/ped/ping/pings
+  >> chow/ing/ed/s/er/ed/ing/ings
+    | class eat
+  >> clean/ing/ed/s/er/ed/ing/ings
+  >> click/ing/ed/s/er/ed/ing/ings
+  >> clip/ping/ped/s/per/ped/ping/pings
+  >> commandeer/ing/ed/s/er/ed/ing/ings
+  >> crumple/-ing/d/s/r/d/-ing/-ings
+  >> crush/ing/ed/es/er/ed/ing/ings
+  >> cultivate/-ing/d/s/r/d/-ion/-ions
+  >> customize/-ing/d/s/r/d/-ation/-ations
+  >> deep-fry/ing/-ied/-ies/-ier/-ied/ing/ings
+  >> defy/ing/-ied/-ies/-ier/-ied/-iance/-iances
     | class counter
-  > deny/denying/denied/denies/denier/denied/denial/denials
+  >> deny/ing/-ied/-ies/-ier/-ied/-ial/-ials
     | class counter
-  > dice/dicing/diced/dices/dicer/diced/dicing/dicings
-  > discipline/disciplining/disciplined/disciplines/discipliner/disciplined/discipline/disciplines
-  > dishonor/dishonoring/dishonored/dishonors/dishonorer/dishonored/dishonoring/dishonorings
-  > dismantle/dismantling/dismantled/dismantles/dismantler/dismantled/dismantling/dismantlings
+  >> dice/-ing/d/s/r/d/-ing/-ings
+  >> discipline/-ing/d/s/r/d//s
+  >> dishonor/ing/ed/s/er/ed/ing/ings
+  >> dismantle/-ing/d/s/r/d/-ing/-ings
     | class destructive
-  > donate/donating/donated/donates/donater/donated/donation/donations
+  >> donate/-ing/d/s/r/d/-ion/-ions
     | class dative
-  > draft/drafting/drafted/drafts/drafter/drafted/drafting/draftings
-  > dramatize/dramatizing/dramatized/dramatizes/dramatizer/dramatized/dramatization/dramatizations
-  > dry-freeze/dry-freezing/dry-froze/dry-freezes/dry-freezer/dry-frozen/dry-freezing/dry-freezings
-  > dye/dyeing/dyed/dyes/dyer/dyed/dyeing/dyeings
+  >> draft/ing/ed/s/er/ed/ing/ings
+  >> dramatize/-ing/d/s/r/d/-ation/-ations
+  >> dry-freeze/-ing/----oze/s/r/----ozen/-ing/-ings
+  >> dye/ing/d/s/r/d/ing/ings
     | class color modify
-  > eliminate/eliminating/eliminated/eliminates/eliminater/eliminated/elimination/eliminations
-  > embrace/embracing/embraced/embraces/embracer/embraced/embrace/embraces
-  > enforce/enforcing/enforced/enforces/enforcer/enforced/enforcement/enforcements
-  > examine/examining/examined/examines/examiner/examined/examination/examinations
-  > exploit/exploiting/exploited/exploits/exploiter/exploited/exploitation/exploitations
-  > extend/extending/extended/extends/extender/extended/extending/extendings
-  > extrapolate/extrapolating/extrapolated/extrapolates/extrapolator/extrapolated/extrapolation/extrapolations
-  > extrude/extruding/extruded/extrudes/extruder/extruded/extruding/extrudings
-  > fabricate/fabricating/fabricated/fabricates/fabricator/fabricated/fabrication/fabrications
-  > falsify/falsifying/falsified/falsifies/falsifier/falsified/falsifification/falsififications
-  > fight/fighting/fought/fights/fighter/fighted/fighting/fightings
-  > flap/flapping/flapped/flaps/flapper/flapped/flapping/flappigs
-  > gargle/gargling/gargled/gargles/gargler/gargled/gargling/garglings
-  > glorify/glorifying/glorified/glorifies/glorifier/glorified/glorification/glorifications
-  > glue/gluing/glued/glues/gluer/glued/gluing/gluings
-  > grate/grating/grated/grates/grater/grated/grating/gratings
-  > grind/grinding/grinded/grinds/grinder/ground/grinding/grindings
-  > grip/gripping/gripped/grips/gripper/gripped/gripping/grippings
-  > groom/grooming/groomed/grooms/groomer/groomed/grooming/groomings
-  > handle/handling/handled/handles/handler/handled/handling/handlings
-  > hog-tie/hog-tying/hog-tied/hog-ties/hog-tier/hog-tied/hog-tying/hog-tyings
+  >> eliminate/-ing/d/s/r/d/-ion/-ions
+  >> embrace/-ing/d/s/r/d//s
+  >> enforce/-ing/d/s/r/d/ment/ments
+  >> examine/-ing/d/s/r/d/-ation/-ations
+  >> exploit/ing/ed/s/er/ed/ation/ations
+  >> extend/ing/ed/s/er/ed/ing/ings
+  >> extrapolate/-ing/d/s/-or/d/-ion/-ions
+  >> extrude/-ing/d/s/r/d/-ing/-ings
+  >> fabricate/-ing/d/s/-or/d/-ion/-ions
+  >> falsify/ing/-ied/-ies/-ier/-ied/-ification/-ifications
+  >> fight/ing/----ought/s/er/ed/ing/ings
+  >> flap/ping/ped/s/per/ped/ping/pigs
+  >> gargle/-ing/d/s/r/d/-ing/-ings
+  >> glorify/ing/-ied/-ies/-ier/-ied/-ication/-ications
+  >> glue/-ing/d/s/r/d/-ing/-ings
+  >> gnaw/ing/ed/s/er/ed/ing/ings
+    | class eat
+  >> grate/-ing/d/s/r/d/-ing/-ings
+  >> grind/ing/ed/s/er/---ound/ing/ings
+  >> grip/ping/ped/s/per/ped/ping/pings
+  >> groom/ing/ed/s/er/ed/ing/ings
+  >> gulp/ing/ed/s/er/ed/ing/ings
+    | class drink
+  >> guzzle/-ing/d/s/r/d/-ing/-ings
+    | class drink
+  >> handle/-ing/d/s/r/d/-ing/-ings
+  >> hog-tie/--ying/d/s/r/d/--ying/--yings
     | class impede restrain
-  > hug/hugging/hugged/hugs/hugger/hugged/hugging/huggings
-  > hunt/hunting/hunted/hunts/hunter/hunted/hunting/huntings
-  > hypnotize/hypnotizing/hypnotized/hypnotizes/hypnotist/hypnotized/hypnosis/hypnoses
-  > impede/impeding/impeded/impedes/impeder/impeded/impediment/impediments
+  >> hug/ging/ged/s/ger/ged/ging/gings
+  >> hunt/ing/ed/s/er/ed/ing/ings
+  >> hypnotize/-ing/d/s/--st/d/----sis/----ses
+  >> impede/-ing/d/s/r/d/-iment/-iments
     | class impede
-  > infest/infesting/infested/infests/infester/infested/infestation/infestations
-  > invigorate/invigorating/invigorated/invigorates/invigorator/invigorated/invigoration/invigorations
-  > iron/ironing/ironed/irons/ironer/ironed/ironing/ironings
-  > jargogle/jargogling/jargogled/jargogles/jargogler/jargogled/jargogling/jargogleings
-  > kill/killing/killed/kills/killer/killed/killing/killings
-  > loosen/loosening/loosened/loosens/loosener/loosened/loosening/loosenings
-  > manipulate/manipulating/manipulated/manipulates/manipulator/manipulated/manipulation/manipulations
-  > marinate/marinating/marinated/marinates/marinater/marinated/marination/marinations
-  > massage/massaging/massaged/massages/massager/massaged/massage/massages
-  > mist/misting/misted/mists/mister/misted/misting/mistings
-  > misuse/misusing/misused/misuses/misuser/misused/misuse/misuses
-  > moisten/moistening/moistened/moistens/moistener/moistened/moisturization/moisturizations
-  > obfuscate/obfuscating/obfuscated/obfuscates/obfuscator/obfuscated/obfuscation/obfuscations
-  > oil/oiling/oiled/oils/oiler/oiled/oiling/oilings
-  > organize/organizing/organized/organizes/organizer/organized/organization/organizations
-  > penetrate/penetrating/penetrated/penetrates/penetrator/penetrated/penetration/penetrations
-  > pickle/pickling/pickled/pickles/pickler/pickled/pickling/picklings
-  > pillage/pillaging/pillaged/pillages/pillager/pillaged/pillaging/pillagings
-  > polish/polishing/polished/polishes/polisher/polished/polishing/polishings
-  > pop/popping/popped/pops/popper/popped/popping/poppings
-  > probe/probing/probed/probes/proper/probed/probing/probings
-  > puff/puffing/puffed/puffs/puffer/puffed/puffing/puffings
-  > punish/punishing/punished/punishes/punisher/punished/punishment/punishments
-  > quantify/quantifying/quantified/quantifies/quantifier/quantified/quantification/quantifications
-  > rearrange/rearranging/rearranged/rearranges/rearranger/rearranged/rearrangement/rearrangements
+  >> infest/ing/ed/s/er/ed/ation/ations
+  >> ingest/ing/ed/s/er/ed/ion/ions
+    | class eat
+  >> invigorate/-ing/d/s/-or/d/-ion/-ions
+  >> iron/ing/ed/s/er/ed/ing/ings
+  >> jargogle/-ing/d/s/r/d/-ing/ings
+  >> kill/ing/ed/s/er/ed/ing/ings
+  >> loosen/ing/ed/s/er/ed/ing/ings
+  >> manipulate/-ing/d/s/-or/d/-ion/-ions
+  >> marinate/-ing/d/s/r/d/-ion/-ions
+  >> massage/-ing/d/s/r/d//s
+  >> mist/ing/ed/s/er/ed/ing/ings
+  >> misuse/-ing/d/s/r/d//s
+  >> moisten/ing/ed/s/er/ed/--urization/--urizations
+  >> obfuscate/-ing/d/s/-or/d/-ion/-ions
+  >> oil/ing/ed/s/er/ed/ing/ings
+  >> organize/-ing/d/s/r/d/-ation/-ations
+  >> penetrate/-ing/d/s/-or/d/-ion/-ions
+  >> pickle/-ing/d/s/r/d/-ing/-ings
+  >> pillage/-ing/d/s/r/d/-ing/-ings
+  >> polish/ing/ed/es/er/ed/ing/ings
+  >> pop/ping/ped/s/per/ped/ping/pings
+  >> probe/-ing/d/s/--per/d/-ing/-ings
+  >> puff/ing/ed/s/er/ed/ing/ings
+  >> punish/ing/ed/es/er/ed/ment/ments
+  >> quaff/ing/ed/s/er/ed/ing/ings
+    | class drink
+  >> quantify/ing/-ied/-ies/-ier/-ied/-ication/-ications
+  >> rearrange/-ing/d/s/r/d/ment/ments
     | class order
-  > recycle/recycling/recycled/recycles/recycler/recycled/recycling/recyclings
-  > rub/rubbing/rubbed/rubs/rubber/rubbed/rubbing/rubbings
-  > salt/salting/salted/salts/salter/salted/salting/saltings
-  > sanitize/sanitizing/sanitized/sanitizes/sanitizer/sanitized/sanitization/sanitizations
-  > savor/savoring/savored/savors/savorer/savored/savoring/savorings
-  > scold/scolding/scolded/scolds/scolder/scolded/scolding/scoldings
-  > scrunch/scrunching/scrunched/scrunches/scruncher/scrunched/scrunching/scrunchings
-  > season/seasoning/seasoned/seasons/seasoner/seasoned/seasoning/seasonings
-  > sharpen/sharpening/sharpened/sharpens/sharpener/sharpened/sharpening/sharpenings
+  >> recycle/-ing/d/s/r/d/-ing/-ings
+  >> rub/bing/bed/s/ber/bed/bing/bings
+  >> salt/ing/ed/s/er/ed/ing/ings
+  >> sanitize/-ing/d/s/r/d/-ation/-ations
+  >> savor/ing/ed/s/er/ed/ing/ings
+  >> scold/ing/ed/s/er/ed/ing/ings
+  >> scrunch/ing/ed/es/er/ed/ing/ings
+  >> season/ing/ed/s/er/ed/ing/ings
+  >> sharpen/ing/ed/s/er/ed/ing/ings
     | class improve
-  > slit/slitting/slit/slits/slitter/slit/slitting/slittings
-  > squeeze/squeezing/squeezed/squeezes/squeezer/squeezed/squeezing/squeezings
-  > squelch/squelching/squelched/squelches/squelcher/squelched/squelching/squelchings
-  > stew/stewing/stewed/stews/stewer/stewed/stewing/stewings
-  > stimulate/stimulating/stimulated/stimulates/stimulator/stimulated/stimulation/stimulate=ions
-  > stir/stirring/stirred/stirs/stirrer/stirred/stirring/stirrings
-  > strap/strapping/strapped/straps/strapper/strapped/strapping/strappings
-  > strategize/strategizing/strategized/strategizes/strategizer/strategized/strategizing/strategizings
-  > streamline/streamlining/streamlined/streamlines/streamliner/streamlined/streamlining/streamlinings
-  > stress-test/stress-testing/stress-tested/stress-tests/stress-tester/stress-tested/stress-test/stress-tests
+  >> slit/ting//s/ter//ting/tings
+  >> squeeze/-ing/d/s/r/d/-ing/-ings
+  >> squelch/ing/ed/es/er/ed/ing/ings
+  >> stew/ing/ed/s/er/ed/ing/ings
+  >> stimulate/-ing/d/s/-or/d/-ion/=ions
+  >> stir/ring/red/s/rer/red/ring/rings
+  >> strap/ping/ped/s/per/ped/ping/pings
+  >> strategize/-ing/d/s/r/d/-ing/-ings
+  >> streamline/-ing/d/s/r/d/-ing/-ings
+  >> stress-test/ing/ed/s/er/ed//s
     | class test
-  > strike/striking/struck/strikes/striker/stricken/striking/strikings
-  > stuff/stuffing/stuffed/stuffs/stuffer/stuffed/stuffing/stuffings
-  > suckle/suckling/suckled/suckles/suckler/suckled/suckling/sucklings
-  > superglue/supergluing/superglued/superglues/supergluer/superglued/supergluing/supergluings
-  > swipe/swiping/swiped/swipes/swiper/swiped/swiping/swipings
-  > tap/tapping/tapped/taps/tapper/tapped/tapping/tappings
-  > tape/taping/taped/tapes/taper/taped/taping/tapings
-  > tighten/tightening/tightened/tightens/tightener/tightened/tightening/tightenings
-  > toke/toking/toked/tokes/toker/toked/toking/tokings
-  > touch/touching/touched/touches/toucher/touched/touching/touchings
-  > transcribe/transcribing/transcribed/transcribes/transcriber/transcribed/transcribing/transcribings
-  > tune/tuning/tuned/tunes/tuner/tuned/tuning/tunings
-  > undermine/undermining/undermined/undermines/underminer/undermined/undermining/underminings
-  > uproot/uprooting/uprooted/uproots/uprooter/uprooted/uprooting/uprootings
-  > venerate/venerating/venerated/venerates/venerate=or/venerated/veneration/venerations
-  > verify/verifying/verified/verifies/verifier/verified/verification/verifications
-  > withdraw/withdrawing/withdrew/withdraws/withdrawer/withdrawn/withdrawing/withdrawings
-  > wrinkle/wrinkling/wrinkled/wrinkles/wrinkler/wrinkled/wrinkling/wrinklings
-  > zip/zipping/zipped/zips/zipper/zipped/zipping/zippings
+  >> strike/-ing/---uck/s/r/--cken/-ing/-ings
+  >> stuff/ing/ed/s/er/ed/ing/ings
+  >> suckle/-ing/d/s/r/d/-ing/-ings
+  >> superglue/-ing/d/s/r/d/-ing/-ings
+  >> swipe/-ing/d/s/r/d/-ing/-ings
+  >> tap/ping/ped/s/per/ped/ping/pings
+  >> tape/-ing/d/s/r/d/-ing/-ings
+  >> tighten/ing/ed/s/er/ed/ing/ings
+  >> toke/-ing/d/s/r/d/-ing/-ings
+  >> tongue/-ing/d/s/r/d/-ing/-ings
+    | class touch
+  >> touch/ing/ed/es/er/ed/ing/ings
+  >> transcribe/-ing/d/s/r/d/-ing/-ings
+  >> tune/-ing/d/s/r/d/-ing/-ings
+  >> undermine/-ing/d/s/r/d/-ing/-ings
+  >> uproot/ing/ed/s/er/ed/ing/ings
+  >> venerate/-ing/d/s/=or/d/-ion/-ions
+  >> verify/ing/-ied/-ies/-ier/-ied/-ication/-ications
+  >> withdraw/ing/--ew/s/er/n/ing/ings
+  >> wrinkle/-ing/d/s/r/d/-ing/-ings
+  >> zip/ping/ped/s/per/ped/ping/pings
 #class remove transitive
 
 #class add walk
-  > crawl/crawling/crawled/crawls/crawler/crawled/crawling/crawlings
-  > gallop/galloping/galloped/gallops/galloper/galloped/galloping/gallopings
-  > joust/jousting/jousted/jousts/jouster/jousted/jousting/joustings
-  > march/marching/marched/marches/marcher/marched/marching/marchings
-  > run/running/ran/runs/runner/run/running/runnings
-  > skip/skipping/skipped/skips/skipper/skipped/skipping/skippings
-  > sleepwalk/sleepwalking/sleepwalked/sleepwalks/sleepwalker/sleepwalked/sleepwalking/sleepwalkings
-  > slouch/slouching/slouched/slouches/sloucher/slouched/slouching/slouchings
-  > snoop/snooping/snooped/snoops/snooper/snooped/snooping/snoopongs
+  >> crawl/ing/ed/s/er/ed/ing/ings
+  >> gallop/ing/ed/s/er/ed/ing/ings
+  >> joust/ing/ed/s/er/ed/ing/ings
+  >> march/ing/ed/es/er/ed/ing/ings
+  >> run/ning/--an/s/ner//ning/nings
+  >> skip/ping/ped/s/per/ped/ping/pings
+  >> sleepwalk/ing/ed/s/er/ed/ing/ings
+  >> slouch/ing/ed/es/er/ed/ing/ings
+  >> snoop/ing/ed/s/er/ed/ing/ongs
     | class transitive
-  > sprint/sprinting/sprinted/sprints/sprinter/sprinted/sprinting/sprintongs
-  > stampede/stampeding/stampeded/stampedes/stampeder/stampeded/stampeding/stampedeings
-  > strut/strutting/strutted/struts/strutter/strutted/strutting/struttings
-  > tiptoe/tiptoeing/tiptoed/tiptoes/tiptoer/tiptoed/tiptoeing/tiptoeings
-  > trot/trotting/trotted/trots/trotter/trotted/trotting/trottings
-  > walk/walking/walked/walks/walker/walked/walking/walkings
+  >> sprint/ing/ed/s/er/ed/ing/ongs
+  >> stampede/-ing/d/s/r/d/-ing/ings
+  >> strut/ting/ted/s/ter/ted/ting/tings
+  >> tiptoe/ing/d/s/r/d/ing/ings
+  >> trot/ting/ted/s/ter/ted/ting/tings
+  >> walk/ing/ed/s/er/ed/ing/ings
 #class remove walk
 
-> abduct/abducting/abducted/abducts/abductor/abducted/abduction/abductions
-> chill/chilling/chilled/chills/chiller/chilled/chilling/chillings
-> choke/choking/choked/chokes/choker/choked/choking/chokings
-> conserve/conserving/conserved/conserves/conserver/conserved/conservation/conservations
-> crash/crashing/crashed/crashes/crasher/crashed/crashing/crashings
-> decorate/decorating/decorated/decorates/decorator/decorated/decoration/decorations
-> despise/despising/despised/despises/despiser/despised/despise/despises
+>> abduct/ing/ed/s/or/ed/ion/ions
+>> chill/ing/ed/s/er/ed/ing/ings
+>> choke/-ing/d/s/r/d/-ing/-ings
+>> conserve/-ing/d/s/r/d/-ation/-ations
+>> crash/ing/ed/es/er/ed/ing/ings
+>> decorate/-ing/d/s/-or/d/-ion/-ions
+>> despise/-ing/d/s/r/d//s
   | class dislike
-> dislike/disliking/disliked/dislikes/disliker/disliked/dislike/dislikes
+>> dislike/-ing/d/s/r/d//s
   | class dislike
-> forecast/forecasting/forecasted/forecasts/forecaster/forecasted/forecasting/forecastings
-> hoist/hoisting/hoisted/hoists/hoister/hoisted/hoisting/hoistings
-> jimmy/jimmying/jimmied/jimmies/jimmier/jimmied/jimmying/jimmyings
-> jingle/jingling/jingled/jingles/jingler/jingled/jingling/jinglings
-> lecture/lecturing/lectured/lectures/lecturer/lectured/lecturing/lecturings
-> like/liking/liked/likes/liker/liked/like/likes
+>> forecast/ing/ed/s/er/ed/ing/ings
+>> hoist/ing/ed/s/er/ed/ing/ings
+>> jimmy/ing/-ied/-ies/-ier/-ied/ing/ings
+>> jingle/-ing/d/s/r/d/-ing/-ings
+>> lecture/-ing/d/s/r/d/-ing/-ings
+>> like/-ing/d/s/r/d//s
   | class like
-> liquidate/liquidating/liquidated/liquidates/liquidator/liquidated/liquidation/liquidations
-> loathe/loathing/loathed/loathes/loather/loathed/loathing/loathings
+>> liquidate/-ing/d/s/-or/d/-ion/-ions
+>> loathe/-ing/d/s/r/d/-ing/-ings
   | class dislike
-> need/needing/needed/needs/needer/needed/need/needs
+>> need/ing/ed/s/er/ed//s
   | class like
-> petition/petitioning/petitioned/petitions/petitioner/petitioned/petitioning/petitions
-> preen/preening/preened/preens/preener/preened/preening/preenings
-> prove/proving/proved/proves/prover/proved/proof/proofs
+>> petition/ing/ed/s/er/ed/ing/s
+>> preen/ing/ed/s/er/ed/ing/ings
+>> prove/-ing/d/s/r/d/--of/--ofs
   | class dative permanent relative test
-> purify/purifying/purified/purifies/purifier/purified/purification/purififications
-> rapture/rapturing/raptured/raptures/rapturer/raptured/rapture/raptures
-> report/reporting/reported/reports/reporter/reported/reporting/reportings
-> ride/riding/rode/rides/rider/ridden/riding/ridings
-> spelunk/spelunking/spelunked/spelunks/spelunker/spelunked/spelunking/spelunkings
-> toast/toasting/toasted/toasts/toaster/toasted/toasting/toastings
-> want/wanting/wanted/wants/wanter/wanted/want/wants
+>> purify/ing/-ied/-ies/-ier/-ied/-ication/-ifications
+>> rapture/-ing/d/s/r/d//s
+>> report/ing/ed/s/er/ed/ing/ings
+>> ride/-ing/---ode/s/r/-den/-ing/-ings
+>> spelunk/ing/ed/s/er/ed/ing/ings
+>> toast/ing/ed/s/er/ed/ing/ings
+>> want/ing/ed/s/er/ed//s
   | class like
-> whisper/whispering/whispered/whispers/whisperer/whispered/whispering
+>> whisper/ing/ed/s/er/ed/ing/ings
   | class dative speech

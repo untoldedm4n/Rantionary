@@ -2,55 +2,55 @@
 #subs singular s
 #hidden nsfw
 
-> bang/bangs
+>> bang/s
   | pron b"{N/b"{Nz
-> beep/beeps
+>> beep/s
   | pron b"ip/b"ips
-> boom/booms
+>> boom/s
   | pron b"um/b"umz
-> clang/clangs
-> crack/cracks
+>> clang/s
+>> crack/s
   | pron kr"{k/kr"{ks
-> crash/crashes
+>> crash/es
   | pron kr"{S/kr"{-SIz
-> flap/flaps
+>> flap/s
   | pron fl"{p/fl"{ps
-> flutter/flutters
+>> flutter/s
   | pron fl"V-t3`/fl"V-t3`z
-> foom/fooms
-> note/notes
+>> foom/s
+>> note/s
   | pron n"oUt/n"oUts
-> pop/pops
+>> pop/s
   | pron p"Ap/p"Aps
-> pound/pounds
+>> pound/s
   | pron p"aUnd/p"aUnz
-> rap/raps
+>> rap/s
   | pron r"{p/r"{ps
-> roar/roars
+>> roar/s
   | pron r"Orr/r"Orrz
-> rumble/rumbles
+>> rumble/s
   | pron r"Vm-bVl/r"Vm-bVlz
-> scrape/scrapes
+>> scrape/s
   | pron skr"eIp/skr"eIps
-> screech/screeches
+>> screech/es
   | pron skr"itS/skr"i-tSIz
-> shatter/shatters
+>> shatter/s
   | pron S"{-t3`/S"{-t3`z
-> shudder/shudders
+>> shudder/s
   | pron S"V-d3`/S"V-d3`z
-> slap/slaps
+>> slap/s
   | pron sl"{p/sl"{ps
-> squeal/squeals
+>> squeal/s
   | pron skw"il/skw"ilz
-> squelch/squelches
-> swoosh/swooshes
-> tap/taps
+>> squelch/es
+>> swoosh/es
+>> tap/s
   | pron t"{p/t"{ps
-> thump/thumps
+>> thump/s
   | pron T"Vmp/T"Vmps
-> tick/ticks
+>> tick/s
   | pron t"Ik/t"Iks
-> toot/toots
+>> toot/s
   | pron t"ut/t"Uts
-> wail/wails
+>> wail/s
   | pron w"eIl/w"eIlz

@@ -59,20 +59,28 @@
   #class remove bird
 
   #class add dog
+    >> basset hound/s
     >> beagle/s
       | pron b"i-gVl/b"i-gVlz
+    >> boarhound/s
     >> bulldog/s
       | pron b"Ul-d%Og/b"Ul-d%Ogz
     >> chihuahua/s
+    >> dachshund/s
     >> dog/s
       | pron d"Og/d"Ogz
+    >> greyhound/s
     >> labrador/s
     >> pomeranian/s
     >> poodle/s
       | pron p"u-dVl/p"u-dVlz
+    >> pug/s
+    >> Rhodesian ridgeback/s
     >> rottweiler/s
     >> schnauzer/s
     >> scottie/s
+    >> Shih-Tzu/s
+    >> terrier/s
   #class remove dog
 
   #class add fish
@@ -411,6 +419,13 @@
 #class remove body
 
 #class add container
+  #class add household
+    #class add appliance
+    #class remove appliance
+
+    >> teapot/s
+  #class remove household
+
   >> bag/s
     | pron b"{g/b"{gz
   >> balloon/s
@@ -493,8 +508,6 @@
   >> skillet/s
   >> suitcase/s
     | pron s"ut-k%eIs/s"ut-k%eI-sIz
-  >> teapot/s
-    | class household
   >> test tube/s
     | pron t"Est tj"ub/t"Est t"ubz
   >> toilet/s
@@ -651,6 +664,8 @@
   >> meatloaf/-ves
   >> mushroom/s
     | class fungus
+  >> omelet/s
+    | class breakfast
   >> peanut/s
     | pron p"i-n%Vt/p"i-n%Vts
   >> popsicle/s
@@ -693,6 +708,36 @@
   >> table/s
     | class surface
 #class remove furniture
+
+#class add household
+  #class add appliance
+    #class add kitchen
+      >> broiler/s
+      >> coffee maker/s
+        | class container
+      >> dishwasher/s
+      >> Dutch oven/s
+      >> espresso maker/s
+      >> food processor/s
+        | class container
+      >> microwave/s
+        | class container
+      >> oven/s
+        | class container
+      >> refrigerator/s
+      >> stove/s
+      >> toaster/s
+      >> waffle iron/s
+    #class remove kitchen
+
+    >> curling iron/s
+    >> flatiron/s
+    >> sewing machine/s
+  #class remove appliance
+
+  >> butter dish/es
+  >> doorknob/s
+#class remove household
 
 #class add job
   >> accountant/s
@@ -931,7 +976,7 @@
     >> blowtorch/es
     >> bunsen burner/s
       | pron b"3`-n3`/b"3`-n3`z
-    >> dry\-erase marker/s
+    >> dry-erase marker/s
     >> fountain pen/s
     >> hammer/s
       | pron h"{-m3`/h"{-m3`z
@@ -1432,8 +1477,6 @@
 >> bulge/s
   | pron b"VldZ/b"Vl-dZIz
 >> butt joint/s
->> butter dish/es
-  | class household
 >> button/s
   | pron b"V-tVn/b"V-tVnz
 >> buttonhole/s
@@ -1489,8 +1532,6 @@
   | pron d"Al/d"Alz
 >> doodle/s
   | pron d"u-dVl/d"u-dVlz
->> doorknob/s
-  | class household
 >> duct tape/
   | pron d"Vkt t"eIp/d"Vkt t"eIp
 >> earwax/
@@ -1676,5 +1717,3 @@
 >> wrinkle/s
   | pron r"IN-kVl/r"IN-kVlz
 >> zygote/s
->> omelet/s
-  | class food breakfast

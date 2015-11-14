@@ -42,6 +42,8 @@
 > delirium
 > diarrhea
   | class gi
+> epilepsy
+> fibrosis
 > folliculitis
 > gastroenteritis
   | class gi
@@ -66,5 +68,3 @@
   | class autoimmune diabetes
 > type II diabetes
   | class diabetes
-> epilepsy
-> fibrosis
