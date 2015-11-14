@@ -160,6 +160,7 @@
   > awe-inspiring/awe-inspiringness
   > charitable/charitability
   > commendable/commendability
+  > dandy/dandiness
   > distinctive/distinction
   > distinguished/distinguishment
   > fine/fineness
@@ -171,9 +172,15 @@
   > monumental/monumentalness
   > noteworthy/noteworthiness
   > out of this world/out of this worldness
+  > peachy/peachiness
+  > phenomenal/phenomenalness
   > praiseworthy/praiseworthiness
+  > quality/qualityness
+  > respectable/respectability
+  > smashing/smashingness
   > smoking/smokingness
     | class appearance
+  > special/specialness
   > splendiferous/splendiferousness
   > super-duper/super-duperness
   > tidy/tidiness
@@ -181,6 +188,7 @@
   > top-notch/top-notchness
   > unparalleled/unparalleledness
   > wonderful/wonderfulness
+  > wonderworking/wonderworks
   > world-class/world-classness
 #class remove cp1
 
@@ -190,7 +198,10 @@
       | pron "{-grV-v%eI-tId/V-gr"E-SVn
     > angry/anger
       | pron "{N-gri/"{N-g3`
+    > ashamed/shame
+      | pron V-S"eImd/S"eIm
     > bittersweet/bittersweetness
+    > cranky/crankiness
     > devilish/devilishness
     > disappointed/disappointment
       | pron d%Is-V-p"OI-nId/d%Is-V-p"OInt-mVnt
@@ -201,6 +212,10 @@
       | pron fj"U-ri-Vs/fj"U-ri
     > gay/gayness
       | pron g"eI/g"eI-nVs
+    > guilty/guilt
+      | pron g"Il-ti/g"Ilt
+    > jealous/envy
+      | pron dZ"E-lVs/"En-vi
     > lustful/lust
       | pron l"Vst-fVl/l"Vst
     > mad/madness
@@ -208,6 +223,8 @@
     > naughty/naughtiness
     > proud/pride
       | pron pr"aUd/pr"aId
+    > remorseful/remorse
+      | pron rI-m"Orrs-fVl/rI-m"Orrs
   #class remove cn1
 
   #class add cn2
@@ -222,9 +239,13 @@
       | pron "i-vVl/"i-vVl
     > hateful/hate
       | pron h"eIt-fVl/h"eIt
+    > humiliated/humility
+      | pron hju-m"I-li-%eI-tId/hju-m"I-lI-ti
   #class remove cn2
 
   #class add cp1
+    > blissful/bliss
+      | pron bl"Is-fVl/bl"Is
     > gleeful/glee
       | pron gl"i-fVl/gl"i
     > happy/happiness
@@ -235,25 +256,16 @@
       | pron l"V-vIN/l"Vv
   #class remove cp1
 
-  > ashamed/shame
-    | pron V-S"eImd/S"eIm
   > awed/awe
     | pron "Od/"O
-  > blissful/bliss
-    | pron bl"Is-fVl/bl"Is
   > bored/boredom
     | pron b"Orrd/b"Orr-dVm
   > cheeky/cheekiness
   > content/contentfulness
-  > cranky/crankiness
   > eager/eagerness
   > groggy/grogginess
-  > guilty/guilt
-    | pron g"Il-ti/g"Ilt
   > horrified/horror
     | pron h"O-rV-f%aId/h"O-r3`
-  > humiliated/humility
-    | pron hju-m"I-li-%eI-tId/hju-m"I-lI-ti
   > hungry/hunger
     | pron h"VN-gri/h"VN-g3`
   > impatient/impatience
@@ -262,8 +274,6 @@
     | pron In-d"I-f3`-Vnt/In-d"I-frVns
   > interested/interest
     | pron "In-t3`-I-stId/"In-t3`-Ist
-  > jealous/envy
-    | pron dZ"E-lVs/"En-vi
   > lonely/loneliness
     | class c0
   > longing/longing
@@ -274,8 +284,6 @@
   > pleasured/pleasure
   > raging/rage
     | pron r"eI-dZIN/r"eIdZ
-  > remorseful/remorse
-    | pron rI-m"Orrs-fVl/rI-m"Orrs
   > sad/sadness
     | pron s"{d/s"{d-nVs
   > severe/severity
