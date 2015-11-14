@@ -104,6 +104,7 @@
   >> finger/s
     | pron f"IN-g3`/f"IN-g3`z
     | class hand long
+  >> fingernail/s
   >> foot/---eet
   >> kneecap/s
     | pron n"i-k%{p/n"i-k%{ps
@@ -1690,6 +1691,8 @@
   | pron m"V-ni/m"V-ni
 >> monster/s
   | pron m"An-st3`/m"An-st3`z
+>> mortgage/s
+  | class finance
 >> nerd/s
   | pron n"3`d/n"3`dz
 >> nickel/s

@@ -3,12 +3,24 @@
 #hidden nsfw
 
 #class add infectious
+  #class add viral
+    > chicken pox
+    > ebola
+    > Hepatitis A
+    > Hepatitis B
+    > herpes
+      | class std
+    > influenza
+    > smallpox
+  #class remove viral
+
   > AIDS
     | class std
-  > herpes
-    | class std viral
+  > pinkeye
   > plague
   > strep throat
+  > strep throat
+    | class bacterial
   > typhoid fever
     | class fever
 #class remove infectious
@@ -17,9 +29,13 @@
   > Alzheimer's
   > amnesia
   > autism
+  > bipolar disorder
   > dementia
   > depression
   > dissociative identity disorder
+  > Down syndrome
+    | class genetic
+  > mental retardation
   > schizophrenia
 #class remove mental
 
