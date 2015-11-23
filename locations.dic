@@ -97,8 +97,6 @@
   #class add natural
     >> cave/s
       | pron k"eIv/k"eIvz
-    >> ditch/es
-      | pron d"ItS/d"I-tSIz
     >> forest/s
       | pron f"O-rIst/f"O-rVs
     >> land/s
@@ -187,6 +185,8 @@
 
 #class add outdoor
   #class add natural
+    >> ditch/es
+      | pron d"ItS/d"I-tSIz
     >> beach/es
       | pron b"itS/b"i-tSIz
     >> crater/s
